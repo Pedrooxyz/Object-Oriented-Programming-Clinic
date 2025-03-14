@@ -1,0 +1,245 @@
+\doxysection{Dados.\+Repositorios.\+Diagnosticos\+Repositorio Class Reference}
+\hypertarget{class_dados_1_1_repositorios_1_1_diagnosticos_repositorio}{}\label{class_dados_1_1_repositorios_1_1_diagnosticos_repositorio}\index{Dados.Repositorios.DiagnosticosRepositorio@{Dados.Repositorios.DiagnosticosRepositorio}}
+
+
+Classe responsável pela gestão de diagnósticos num repositório.  
+
+
+Inheritance diagram for Dados.\+Repositorios.\+Diagnosticos\+Repositorio\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_dados_1_1_repositorios_1_1_diagnosticos_repositorio}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_dados_1_1_repositorios_1_1_diagnosticos_repositorio_af5b1c15b55a68641c18c58bc8b29c8a9}\label{class_dados_1_1_repositorios_1_1_diagnosticos_repositorio_af5b1c15b55a68641c18c58bc8b29c8a9} 
+{\bfseries Diagnosticos\+Repositorio} ()
+\begin{DoxyCompactList}\small\item\em Construtor que inicializa o repositório com uma lista de diagnósticos vazia e atribui um ID único. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_dados_1_1_repositorios_1_1_diagnosticos_repositorio_a40726eba7740facc9226645bb4cb8037}{Adicionar}} (\mbox{\hyperlink{class_dados_1_1_entidades_1_1_diagnostico}{Diagnostico}} diagnostico)
+\begin{DoxyCompactList}\small\item\em Adiciona um diagnóstico ao repositório. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_dados_1_1_repositorios_1_1_diagnosticos_repositorio_ab52c7383df9cfd7ed0505106cd5e1ee1}{Remover}} (int diagnostico\+Id)
+\begin{DoxyCompactList}\small\item\em Remove um diagnóstico do repositório. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_dados_1_1_repositorios_1_1_diagnosticos_repositorio_a1e1793d8d5619c6e8e010c929eb88080}{Existe}} (int diagnostico\+Id)
+\begin{DoxyCompactList}\small\item\em Verifica a existência de um diagnóstico no repositório. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_dados_1_1_entidades_1_1_diagnostico}{Diagnostico}} \mbox{\hyperlink{class_dados_1_1_repositorios_1_1_diagnosticos_repositorio_a929241e5d237028ebb3e29fa32f452e2}{Obter\+Por\+Id}} (int diagnostico\+Id)
+\begin{DoxyCompactList}\small\item\em Obtém um diagnóstico pelo ID. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_dados_1_1_repositorios_1_1_diagnosticos_repositorio_a584dba8269e79edff463750ba6a40850}{Adicionar\+Light}} (\mbox{\hyperlink{class_objetos_negocio_1_1_classes_light_1_1_diagnostico_light}{Diagnostico\+Light}} diagnostico\+Light)
+\begin{DoxyCompactList}\small\item\em Adiciona um diagnóstico simplificado ao repositório. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_objetos_negocio_1_1_classes_light_1_1_diagnostico_light}{Diagnostico\+Light}} \mbox{\hyperlink{class_dados_1_1_repositorios_1_1_diagnosticos_repositorio_af35a1cda476ddf910a5d3b699b85bba6}{Obter\+Diagnostico\+Light}} (int diagnostico\+Id)
+\begin{DoxyCompactList}\small\item\em Obtém um diagnóstico simplificado a partir do seu ID. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_dados_1_1_repositorios_1_1_diagnosticos_repositorio_a5b9272b93d19067104b98bc331912bd8}{Associar\+Consulta\+Diagnostico}} (int diagnostico\+Id, int consulta\+Id)
+\begin{DoxyCompactList}\small\item\em Associa um diagnóstico a uma consulta. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_dados_1_1_repositorios_1_1_diagnosticos_repositorio_afa59666e652ef0ef942653cbada046de}{Obter\+Consulta\+Id\+Diagnostico}} (int diagnostico\+Id)
+\begin{DoxyCompactList}\small\item\em Obtém o ID da consulta associada a um diagnóstico. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_dados_1_1_repositorios_1_1_diagnosticos_repositorio_ac3d8394ccf298e7f861af4bc7d584726}{Adicionar\+Texto\+Descricao}} (int diagnostico\+Id, string texto)
+\begin{DoxyCompactList}\small\item\em Adiciona um texto de descrição a um diagnóstico. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_dados_1_1_repositorios_1_1_diagnosticos_repositorio_ad9d2bc568f6f46365ca917bef4bcb16c}{Exportar\+Diagnosticos}} (string nome\+Ficheiro)
+\begin{DoxyCompactList}\small\item\em Exporta todos os diagnósticos para um ficheiro binário. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{interface_dados_1_1_interfaces_1_1_i_repositorio}{Dados.\+Interfaces.\+IRepositorio$<$ Diagnostico $>$}}}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{interface_dados_1_1_interfaces_1_1_i_repositorio_a4e2a7f4d249731ac1c4ec141cde0b372}{Adicionar}} (T item)
+\begin{DoxyCompactList}\small\item\em Adiciona um item ao repositório. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{interface_dados_1_1_interfaces_1_1_i_repositorio_aaa9b237c49c14d1e33f6c13bad05c963}{Remover}} (int id)
+\begin{DoxyCompactList}\small\item\em Remove um item do repositório com base no seu ID. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{interface_dados_1_1_interfaces_1_1_i_repositorio_a16fa104709a56a8d67a1f9e67c902c47}{Existe}} (int id)
+\begin{DoxyCompactList}\small\item\em Verifica se um item existe no repositório com base no seu ID. \end{DoxyCompactList}\item 
+T \mbox{\hyperlink{interface_dados_1_1_interfaces_1_1_i_repositorio_a58885b2270e470f5dda6ff03ca63d992}{Obter\+Por\+Id}} (int id)
+\begin{DoxyCompactList}\small\item\em Obtém um item do repositório com base no seu ID. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Classe responsável pela gestão de diagnósticos num repositório. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_dados_1_1_repositorios_1_1_diagnosticos_repositorio_a40726eba7740facc9226645bb4cb8037}\index{Dados.Repositorios.DiagnosticosRepositorio@{Dados.Repositorios.DiagnosticosRepositorio}!Adicionar@{Adicionar}}
+\index{Adicionar@{Adicionar}!Dados.Repositorios.DiagnosticosRepositorio@{Dados.Repositorios.DiagnosticosRepositorio}}
+\doxysubsubsection{\texorpdfstring{Adicionar()}{Adicionar()}}
+{\footnotesize\ttfamily \label{class_dados_1_1_repositorios_1_1_diagnosticos_repositorio_a40726eba7740facc9226645bb4cb8037} 
+bool Dados.\+Repositorios.\+Diagnosticos\+Repositorio.\+Adicionar (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_dados_1_1_entidades_1_1_diagnostico}{Diagnostico}}}]{diagnostico}{}\end{DoxyParamCaption})}
+
+
+
+Adiciona um diagnóstico ao repositório. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em diagnostico} & Objeto do tipo {\ttfamily Diagnostico} a ser adicionado.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} se o diagnóstico foi adicionado com sucesso, {\ttfamily false} caso contrário.
+\end{DoxyReturn}
+\Hypertarget{class_dados_1_1_repositorios_1_1_diagnosticos_repositorio_a584dba8269e79edff463750ba6a40850}\index{Dados.Repositorios.DiagnosticosRepositorio@{Dados.Repositorios.DiagnosticosRepositorio}!AdicionarLight@{AdicionarLight}}
+\index{AdicionarLight@{AdicionarLight}!Dados.Repositorios.DiagnosticosRepositorio@{Dados.Repositorios.DiagnosticosRepositorio}}
+\doxysubsubsection{\texorpdfstring{AdicionarLight()}{AdicionarLight()}}
+{\footnotesize\ttfamily \label{class_dados_1_1_repositorios_1_1_diagnosticos_repositorio_a584dba8269e79edff463750ba6a40850} 
+bool Dados.\+Repositorios.\+Diagnosticos\+Repositorio.\+Adicionar\+Light (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_objetos_negocio_1_1_classes_light_1_1_diagnostico_light}{Diagnostico\+Light}}}]{diagnostico\+Light}{}\end{DoxyParamCaption})}
+
+
+
+Adiciona um diagnóstico simplificado ao repositório. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em diagnostico\+Light} & Objeto do tipo {\ttfamily Diagnostico\+Light} a ser adicionado.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} se o diagnóstico foi adicionado com sucesso.
+\end{DoxyReturn}
+\Hypertarget{class_dados_1_1_repositorios_1_1_diagnosticos_repositorio_ac3d8394ccf298e7f861af4bc7d584726}\index{Dados.Repositorios.DiagnosticosRepositorio@{Dados.Repositorios.DiagnosticosRepositorio}!AdicionarTextoDescricao@{AdicionarTextoDescricao}}
+\index{AdicionarTextoDescricao@{AdicionarTextoDescricao}!Dados.Repositorios.DiagnosticosRepositorio@{Dados.Repositorios.DiagnosticosRepositorio}}
+\doxysubsubsection{\texorpdfstring{AdicionarTextoDescricao()}{AdicionarTextoDescricao()}}
+{\footnotesize\ttfamily \label{class_dados_1_1_repositorios_1_1_diagnosticos_repositorio_ac3d8394ccf298e7f861af4bc7d584726} 
+bool Dados.\+Repositorios.\+Diagnosticos\+Repositorio.\+Adicionar\+Texto\+Descricao (\begin{DoxyParamCaption}\item[{int}]{diagnostico\+Id}{, }\item[{string}]{texto}{}\end{DoxyParamCaption})}
+
+
+
+Adiciona um texto de descrição a um diagnóstico. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em diagnostico\+Id} & ID do diagnóstico.\\
+\hline
+{\em texto} & Texto a ser adicionado como descrição.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} se a descrição foi adicionada com sucesso.
+\end{DoxyReturn}
+\Hypertarget{class_dados_1_1_repositorios_1_1_diagnosticos_repositorio_a5b9272b93d19067104b98bc331912bd8}\index{Dados.Repositorios.DiagnosticosRepositorio@{Dados.Repositorios.DiagnosticosRepositorio}!AssociarConsultaDiagnostico@{AssociarConsultaDiagnostico}}
+\index{AssociarConsultaDiagnostico@{AssociarConsultaDiagnostico}!Dados.Repositorios.DiagnosticosRepositorio@{Dados.Repositorios.DiagnosticosRepositorio}}
+\doxysubsubsection{\texorpdfstring{AssociarConsultaDiagnostico()}{AssociarConsultaDiagnostico()}}
+{\footnotesize\ttfamily \label{class_dados_1_1_repositorios_1_1_diagnosticos_repositorio_a5b9272b93d19067104b98bc331912bd8} 
+bool Dados.\+Repositorios.\+Diagnosticos\+Repositorio.\+Associar\+Consulta\+Diagnostico (\begin{DoxyParamCaption}\item[{int}]{diagnostico\+Id}{, }\item[{int}]{consulta\+Id}{}\end{DoxyParamCaption})}
+
+
+
+Associa um diagnóstico a uma consulta. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em diagnostico\+Id} & ID do diagnóstico a ser associado.\\
+\hline
+{\em consulta\+Id} & ID da consulta a ser associada.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} se a associação foi bem-\/sucedida.
+\end{DoxyReturn}
+\Hypertarget{class_dados_1_1_repositorios_1_1_diagnosticos_repositorio_a1e1793d8d5619c6e8e010c929eb88080}\index{Dados.Repositorios.DiagnosticosRepositorio@{Dados.Repositorios.DiagnosticosRepositorio}!Existe@{Existe}}
+\index{Existe@{Existe}!Dados.Repositorios.DiagnosticosRepositorio@{Dados.Repositorios.DiagnosticosRepositorio}}
+\doxysubsubsection{\texorpdfstring{Existe()}{Existe()}}
+{\footnotesize\ttfamily \label{class_dados_1_1_repositorios_1_1_diagnosticos_repositorio_a1e1793d8d5619c6e8e010c929eb88080} 
+bool Dados.\+Repositorios.\+Diagnosticos\+Repositorio.\+Existe (\begin{DoxyParamCaption}\item[{int}]{diagnostico\+Id}{}\end{DoxyParamCaption})}
+
+
+
+Verifica a existência de um diagnóstico no repositório. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em diagnostico\+Id} & ID do diagnóstico a ser verificado.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} se o diagnóstico existir, {\ttfamily false} caso contrário.
+\end{DoxyReturn}
+\Hypertarget{class_dados_1_1_repositorios_1_1_diagnosticos_repositorio_ad9d2bc568f6f46365ca917bef4bcb16c}\index{Dados.Repositorios.DiagnosticosRepositorio@{Dados.Repositorios.DiagnosticosRepositorio}!ExportarDiagnosticos@{ExportarDiagnosticos}}
+\index{ExportarDiagnosticos@{ExportarDiagnosticos}!Dados.Repositorios.DiagnosticosRepositorio@{Dados.Repositorios.DiagnosticosRepositorio}}
+\doxysubsubsection{\texorpdfstring{ExportarDiagnosticos()}{ExportarDiagnosticos()}}
+{\footnotesize\ttfamily \label{class_dados_1_1_repositorios_1_1_diagnosticos_repositorio_ad9d2bc568f6f46365ca917bef4bcb16c} 
+bool Dados.\+Repositorios.\+Diagnosticos\+Repositorio.\+Exportar\+Diagnosticos (\begin{DoxyParamCaption}\item[{string}]{nome\+Ficheiro}{}\end{DoxyParamCaption})}
+
+
+
+Exporta todos os diagnósticos para um ficheiro binário. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome\+Ficheiro} & Nome do ficheiro onde os dados serão exportados.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} se a exportação for bem-\/sucedida, {\ttfamily false} caso contrário.
+\end{DoxyReturn}
+\Hypertarget{class_dados_1_1_repositorios_1_1_diagnosticos_repositorio_afa59666e652ef0ef942653cbada046de}\index{Dados.Repositorios.DiagnosticosRepositorio@{Dados.Repositorios.DiagnosticosRepositorio}!ObterConsultaIdDiagnostico@{ObterConsultaIdDiagnostico}}
+\index{ObterConsultaIdDiagnostico@{ObterConsultaIdDiagnostico}!Dados.Repositorios.DiagnosticosRepositorio@{Dados.Repositorios.DiagnosticosRepositorio}}
+\doxysubsubsection{\texorpdfstring{ObterConsultaIdDiagnostico()}{ObterConsultaIdDiagnostico()}}
+{\footnotesize\ttfamily \label{class_dados_1_1_repositorios_1_1_diagnosticos_repositorio_afa59666e652ef0ef942653cbada046de} 
+int Dados.\+Repositorios.\+Diagnosticos\+Repositorio.\+Obter\+Consulta\+Id\+Diagnostico (\begin{DoxyParamCaption}\item[{int}]{diagnostico\+Id}{}\end{DoxyParamCaption})}
+
+
+
+Obtém o ID da consulta associada a um diagnóstico. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em diagnostico\+Id} & ID do diagnóstico.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+O ID da consulta associada.
+\end{DoxyReturn}
+\Hypertarget{class_dados_1_1_repositorios_1_1_diagnosticos_repositorio_af35a1cda476ddf910a5d3b699b85bba6}\index{Dados.Repositorios.DiagnosticosRepositorio@{Dados.Repositorios.DiagnosticosRepositorio}!ObterDiagnosticoLight@{ObterDiagnosticoLight}}
+\index{ObterDiagnosticoLight@{ObterDiagnosticoLight}!Dados.Repositorios.DiagnosticosRepositorio@{Dados.Repositorios.DiagnosticosRepositorio}}
+\doxysubsubsection{\texorpdfstring{ObterDiagnosticoLight()}{ObterDiagnosticoLight()}}
+{\footnotesize\ttfamily \label{class_dados_1_1_repositorios_1_1_diagnosticos_repositorio_af35a1cda476ddf910a5d3b699b85bba6} 
+\mbox{\hyperlink{class_objetos_negocio_1_1_classes_light_1_1_diagnostico_light}{Diagnostico\+Light}} Dados.\+Repositorios.\+Diagnosticos\+Repositorio.\+Obter\+Diagnostico\+Light (\begin{DoxyParamCaption}\item[{int}]{diagnostico\+Id}{}\end{DoxyParamCaption})}
+
+
+
+Obtém um diagnóstico simplificado a partir do seu ID. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em diagnostico\+Id} & ID do diagnóstico a ser obtido.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+O diagnóstico simplificado ou {\ttfamily null} se não for encontrado.
+\end{DoxyReturn}
+\Hypertarget{class_dados_1_1_repositorios_1_1_diagnosticos_repositorio_a929241e5d237028ebb3e29fa32f452e2}\index{Dados.Repositorios.DiagnosticosRepositorio@{Dados.Repositorios.DiagnosticosRepositorio}!ObterPorId@{ObterPorId}}
+\index{ObterPorId@{ObterPorId}!Dados.Repositorios.DiagnosticosRepositorio@{Dados.Repositorios.DiagnosticosRepositorio}}
+\doxysubsubsection{\texorpdfstring{ObterPorId()}{ObterPorId()}}
+{\footnotesize\ttfamily \label{class_dados_1_1_repositorios_1_1_diagnosticos_repositorio_a929241e5d237028ebb3e29fa32f452e2} 
+\mbox{\hyperlink{class_dados_1_1_entidades_1_1_diagnostico}{Diagnostico}} Dados.\+Repositorios.\+Diagnosticos\+Repositorio.\+Obter\+Por\+Id (\begin{DoxyParamCaption}\item[{int}]{diagnostico\+Id}{}\end{DoxyParamCaption})}
+
+
+
+Obtém um diagnóstico pelo ID. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em diagnostico\+Id} & ID do diagnóstico a ser obtido.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+O diagnóstico correspondente ou {\ttfamily null} se não for encontrado.
+\end{DoxyReturn}
+\Hypertarget{class_dados_1_1_repositorios_1_1_diagnosticos_repositorio_ab52c7383df9cfd7ed0505106cd5e1ee1}\index{Dados.Repositorios.DiagnosticosRepositorio@{Dados.Repositorios.DiagnosticosRepositorio}!Remover@{Remover}}
+\index{Remover@{Remover}!Dados.Repositorios.DiagnosticosRepositorio@{Dados.Repositorios.DiagnosticosRepositorio}}
+\doxysubsubsection{\texorpdfstring{Remover()}{Remover()}}
+{\footnotesize\ttfamily \label{class_dados_1_1_repositorios_1_1_diagnosticos_repositorio_ab52c7383df9cfd7ed0505106cd5e1ee1} 
+bool Dados.\+Repositorios.\+Diagnosticos\+Repositorio.\+Remover (\begin{DoxyParamCaption}\item[{int}]{diagnostico\+Id}{}\end{DoxyParamCaption})}
+
+
+
+Remove um diagnóstico do repositório. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em diagnostico\+Id} & ID do diagnóstico a ser removido.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} se o diagnóstico foi removido, {\ttfamily false} se não foi encontrado.
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/2ano/1sem/\+POO/\+FASE2\+\_\+\+PROJETO/\+Gestao\+Centro\+Saude/\+Dados/\+Repositorios/Diagnosticos\+Repositorio.\+cs\end{DoxyCompactItemize}

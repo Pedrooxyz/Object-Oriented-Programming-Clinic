@@ -1,0 +1,6 @@
+D:\2ano\1sem\POO\FASE2_PROJETO\GestaoCentroSaude\ObjetosNegocio\obj\Debug\ObjetosNegocio.csproj.AssemblyReference.cache
+D:\2ano\1sem\POO\FASE2_PROJETO\GestaoCentroSaude\ObjetosNegocio\obj\Debug\ObjetosNegocio.csproj.CoreCompileInputs.cache
+D:\2ano\1sem\POO\FASE2_PROJETO\GestaoCentroSaude\ObjetosNegocio\bin\Debug\ObjetosNegocio.dll
+D:\2ano\1sem\POO\FASE2_PROJETO\GestaoCentroSaude\ObjetosNegocio\bin\Debug\ObjetosNegocio.pdb
+D:\2ano\1sem\POO\FASE2_PROJETO\GestaoCentroSaude\ObjetosNegocio\obj\Debug\ObjetosNegocio.dll
+D:\2ano\1sem\POO\FASE2_PROJETO\GestaoCentroSaude\ObjetosNegocio\obj\Debug\ObjetosNegocio.pdb

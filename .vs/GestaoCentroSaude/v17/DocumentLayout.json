@@ -1,0 +1,261 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{38F34432-4487-4DCA-9968-49458205AAE2}|GestaoCentroSaude\\GestaoCentroSaude.csproj|d:\\2ano\\1sem\\poo\\fase2_projeto\\gestaocentrosaude\\gestaocentrosaude\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38F34432-4487-4DCA-9968-49458205AAE2}|GestaoCentroSaude\\GestaoCentroSaude.csproj|solutionrelative:gestaocentrosaude\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{220F3CA2-4299-490D-81EA-86C2AEE9CDA2}|RegrasNegocio\\RegrasNegocio.csproj|D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\regrasnegocio\\servicos\\gestaoconsultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{220F3CA2-4299-490D-81EA-86C2AEE9CDA2}|RegrasNegocio\\RegrasNegocio.csproj|solutionrelative:regrasnegocio\\servicos\\gestaoconsultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{220F3CA2-4299-490D-81EA-86C2AEE9CDA2}|RegrasNegocio\\RegrasNegocio.csproj|D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\regrasnegocio\\servicos\\gestaodiagnosticos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{220F3CA2-4299-490D-81EA-86C2AEE9CDA2}|RegrasNegocio\\RegrasNegocio.csproj|solutionrelative:regrasnegocio\\servicos\\gestaodiagnosticos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{220F3CA2-4299-490D-81EA-86C2AEE9CDA2}|RegrasNegocio\\RegrasNegocio.csproj|D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\regrasnegocio\\servicos\\gestaopacientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{220F3CA2-4299-490D-81EA-86C2AEE9CDA2}|RegrasNegocio\\RegrasNegocio.csproj|solutionrelative:regrasnegocio\\servicos\\gestaopacientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7140B503-2996-4F1E-8846-66279FEF4DD0}|TestesUnitarios\\TestesUnitarios.csproj|d:\\2ano\\1sem\\poo\\fase2_projeto\\gestaocentrosaude\\testesunitarios\\testeconsultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7140B503-2996-4F1E-8846-66279FEF4DD0}|TestesUnitarios\\TestesUnitarios.csproj|solutionrelative:testesunitarios\\testeconsultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCC090A7-CE05-4725-9E2D-D01CB4D46FC3}|TrataProblemas\\TrataProblemas.csproj|D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\trataproblemas\\tratarexcecoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCC090A7-CE05-4725-9E2D-D01CB4D46FC3}|TrataProblemas\\TrataProblemas.csproj|solutionrelative:trataproblemas\\tratarexcecoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7140B503-2996-4F1E-8846-66279FEF4DD0}|TestesUnitarios\\TestesUnitarios.csproj|d:\\2ano\\1sem\\poo\\fase2_projeto\\gestaocentrosaude\\testesunitarios\\testeexames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7140B503-2996-4F1E-8846-66279FEF4DD0}|TestesUnitarios\\TestesUnitarios.csproj|solutionrelative:testesunitarios\\testeexames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7140B503-2996-4F1E-8846-66279FEF4DD0}|TestesUnitarios\\TestesUnitarios.csproj|d:\\2ano\\1sem\\poo\\fase2_projeto\\gestaocentrosaude\\testesunitarios\\testediagnosticos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7140B503-2996-4F1E-8846-66279FEF4DD0}|TestesUnitarios\\TestesUnitarios.csproj|solutionrelative:testesunitarios\\testediagnosticos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{220F3CA2-4299-490D-81EA-86C2AEE9CDA2}|RegrasNegocio\\RegrasNegocio.csproj|D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\regrasnegocio\\servicos\\gestaoexames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{220F3CA2-4299-490D-81EA-86C2AEE9CDA2}|RegrasNegocio\\RegrasNegocio.csproj|solutionrelative:regrasnegocio\\servicos\\gestaoexames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{220F3CA2-4299-490D-81EA-86C2AEE9CDA2}|RegrasNegocio\\RegrasNegocio.csproj|D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\regrasnegocio\\servicos\\gestaomedicos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{220F3CA2-4299-490D-81EA-86C2AEE9CDA2}|RegrasNegocio\\RegrasNegocio.csproj|solutionrelative:regrasnegocio\\servicos\\gestaomedicos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{220F3CA2-4299-490D-81EA-86C2AEE9CDA2}|RegrasNegocio\\RegrasNegocio.csproj|D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\regrasnegocio\\interfaces\\igestaopacientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{220F3CA2-4299-490D-81EA-86C2AEE9CDA2}|RegrasNegocio\\RegrasNegocio.csproj|solutionrelative:regrasnegocio\\interfaces\\igestaopacientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{220F3CA2-4299-490D-81EA-86C2AEE9CDA2}|RegrasNegocio\\RegrasNegocio.csproj|D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\regrasnegocio\\interfaces\\igestaomedicos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{220F3CA2-4299-490D-81EA-86C2AEE9CDA2}|RegrasNegocio\\RegrasNegocio.csproj|solutionrelative:regrasnegocio\\interfaces\\igestaomedicos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{220F3CA2-4299-490D-81EA-86C2AEE9CDA2}|RegrasNegocio\\RegrasNegocio.csproj|D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\regrasnegocio\\interfaces\\igestaoexames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{220F3CA2-4299-490D-81EA-86C2AEE9CDA2}|RegrasNegocio\\RegrasNegocio.csproj|solutionrelative:regrasnegocio\\interfaces\\igestaoexames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{220F3CA2-4299-490D-81EA-86C2AEE9CDA2}|RegrasNegocio\\RegrasNegocio.csproj|D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\regrasnegocio\\interfaces\\igestaodiagnosticos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{220F3CA2-4299-490D-81EA-86C2AEE9CDA2}|RegrasNegocio\\RegrasNegocio.csproj|solutionrelative:regrasnegocio\\interfaces\\igestaodiagnosticos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{220F3CA2-4299-490D-81EA-86C2AEE9CDA2}|RegrasNegocio\\RegrasNegocio.csproj|D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\regrasnegocio\\interfaces\\igestaoconsultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{220F3CA2-4299-490D-81EA-86C2AEE9CDA2}|RegrasNegocio\\RegrasNegocio.csproj|solutionrelative:regrasnegocio\\interfaces\\igestaoconsultas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\GestaoCentroSaude\\Program.cs",
+              "RelativeDocumentMoniker": "GestaoCentroSaude\\Program.cs",
+              "ToolTip": "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\GestaoCentroSaude\\Program.cs",
+              "RelativeToolTip": "GestaoCentroSaude\\Program.cs",
+              "ViewState": "AgIAAAsBAAAAAAAAAAAAAAoBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T00:09:26.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TratarExcecoes.cs",
+              "DocumentMoniker": "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\TrataProblemas\\TratarExcecoes.cs",
+              "RelativeDocumentMoniker": "TrataProblemas\\TratarExcecoes.cs",
+              "ToolTip": "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\TrataProblemas\\TratarExcecoes.cs",
+              "RelativeToolTip": "TrataProblemas\\TratarExcecoes.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAowHsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T00:02:14.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TesteExames.cs",
+              "DocumentMoniker": "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\TestesUnitarios\\TesteExames.cs",
+              "RelativeDocumentMoniker": "TestesUnitarios\\TesteExames.cs",
+              "ToolTip": "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\TestesUnitarios\\TesteExames.cs",
+              "RelativeToolTip": "TestesUnitarios\\TesteExames.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAowGYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T23:57:51.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TesteDiagnosticos.cs",
+              "DocumentMoniker": "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\TestesUnitarios\\TesteDiagnosticos.cs",
+              "RelativeDocumentMoniker": "TestesUnitarios\\TesteDiagnosticos.cs",
+              "ToolTip": "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\TestesUnitarios\\TesteDiagnosticos.cs",
+              "RelativeToolTip": "TestesUnitarios\\TesteDiagnosticos.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAowDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T23:56:26.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TesteConsultas.cs",
+              "DocumentMoniker": "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\TestesUnitarios\\TesteConsultas.cs",
+              "RelativeDocumentMoniker": "TestesUnitarios\\TesteConsultas.cs",
+              "ToolTip": "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\TestesUnitarios\\TesteConsultas.cs",
+              "RelativeToolTip": "TestesUnitarios\\TesteConsultas.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAowBcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T23:54:42.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GestaoConsultas.cs",
+              "DocumentMoniker": "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\RegrasNegocio\\Servicos\\GestaoConsultas.cs",
+              "RelativeDocumentMoniker": "RegrasNegocio\\Servicos\\GestaoConsultas.cs",
+              "ToolTip": "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\RegrasNegocio\\Servicos\\GestaoConsultas.cs",
+              "RelativeToolTip": "RegrasNegocio\\Servicos\\GestaoConsultas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T23:32:54.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IGestaoMedicos.cs",
+              "DocumentMoniker": "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\RegrasNegocio\\Interfaces\\IGestaoMedicos.cs",
+              "RelativeDocumentMoniker": "RegrasNegocio\\Interfaces\\IGestaoMedicos.cs",
+              "ToolTip": "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\RegrasNegocio\\Interfaces\\IGestaoMedicos.cs",
+              "RelativeToolTip": "RegrasNegocio\\Interfaces\\IGestaoMedicos.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAqwEUAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T23:30:52.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IGestaoExames.cs",
+              "DocumentMoniker": "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\RegrasNegocio\\Interfaces\\IGestaoExames.cs",
+              "RelativeDocumentMoniker": "RegrasNegocio\\Interfaces\\IGestaoExames.cs",
+              "ToolTip": "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\RegrasNegocio\\Interfaces\\IGestaoExames.cs",
+              "RelativeToolTip": "RegrasNegocio\\Interfaces\\IGestaoExames.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAkwFAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T23:29:05.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GestaoExames.cs",
+              "DocumentMoniker": "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\RegrasNegocio\\Servicos\\GestaoExames.cs",
+              "RelativeDocumentMoniker": "RegrasNegocio\\Servicos\\GestaoExames.cs",
+              "ToolTip": "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\RegrasNegocio\\Servicos\\GestaoExames.cs",
+              "RelativeToolTip": "RegrasNegocio\\Servicos\\GestaoExames.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T19:06:47.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GestaoMedicos.cs",
+              "DocumentMoniker": "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\RegrasNegocio\\Servicos\\GestaoMedicos.cs",
+              "RelativeDocumentMoniker": "RegrasNegocio\\Servicos\\GestaoMedicos.cs",
+              "ToolTip": "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\RegrasNegocio\\Servicos\\GestaoMedicos.cs",
+              "RelativeToolTip": "RegrasNegocio\\Servicos\\GestaoMedicos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T18:10:47.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IGestaoPacientes.cs",
+              "DocumentMoniker": "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\RegrasNegocio\\Interfaces\\IGestaoPacientes.cs",
+              "RelativeDocumentMoniker": "RegrasNegocio\\Interfaces\\IGestaoPacientes.cs",
+              "ToolTip": "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\RegrasNegocio\\Interfaces\\IGestaoPacientes.cs",
+              "RelativeToolTip": "RegrasNegocio\\Interfaces\\IGestaoPacientes.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAUwEQAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T18:10:33.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GestaoPacientes.cs",
+              "DocumentMoniker": "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\RegrasNegocio\\Servicos\\GestaoPacientes.cs",
+              "RelativeDocumentMoniker": "RegrasNegocio\\Servicos\\GestaoPacientes.cs",
+              "ToolTip": "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\RegrasNegocio\\Servicos\\GestaoPacientes.cs",
+              "RelativeToolTip": "RegrasNegocio\\Servicos\\GestaoPacientes.cs",
+              "ViewState": "AgIAAL8AAAAAAAAAAAAAAOMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T18:09:44.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IGestaoDiagnosticos.cs",
+              "DocumentMoniker": "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\RegrasNegocio\\Interfaces\\IGestaoDiagnosticos.cs",
+              "RelativeDocumentMoniker": "RegrasNegocio\\Interfaces\\IGestaoDiagnosticos.cs",
+              "ToolTip": "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\RegrasNegocio\\Interfaces\\IGestaoDiagnosticos.cs",
+              "RelativeToolTip": "RegrasNegocio\\Interfaces\\IGestaoDiagnosticos.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAiwHgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T23:27:11.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IGestaoConsultas.cs",
+              "DocumentMoniker": "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\RegrasNegocio\\Interfaces\\IGestaoConsultas.cs",
+              "RelativeDocumentMoniker": "RegrasNegocio\\Interfaces\\IGestaoConsultas.cs",
+              "ToolTip": "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\RegrasNegocio\\Interfaces\\IGestaoConsultas.cs",
+              "RelativeToolTip": "RegrasNegocio\\Interfaces\\IGestaoConsultas.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAADwv2EAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T23:24:56.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GestaoDiagnosticos.cs",
+              "DocumentMoniker": "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\RegrasNegocio\\Servicos\\GestaoDiagnosticos.cs",
+              "RelativeDocumentMoniker": "RegrasNegocio\\Servicos\\GestaoDiagnosticos.cs",
+              "ToolTip": "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\RegrasNegocio\\Servicos\\GestaoDiagnosticos.cs",
+              "RelativeToolTip": "RegrasNegocio\\Servicos\\GestaoDiagnosticos.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwwB0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T17:49:58.033Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

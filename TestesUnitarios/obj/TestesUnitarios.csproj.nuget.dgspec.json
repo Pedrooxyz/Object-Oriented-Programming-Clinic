@@ -1,0 +1,175 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\TestesUnitarios\\TestesUnitarios.csproj": {}
+  },
+  "projects": {
+    "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\Dados\\Dados.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\Dados\\Dados.csproj",
+        "projectName": "Dados",
+        "projectPath": "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\Dados\\Dados.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\ObjetosNegocio\\ObjetosNegocio.csproj": {
+                "projectPath": "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\ObjetosNegocio\\ObjetosNegocio.csproj"
+              },
+              "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\TrataProblemas\\TrataProblemas.csproj": {
+                "projectPath": "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\TrataProblemas\\TrataProblemas.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\ObjetosNegocio\\ObjetosNegocio.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\ObjetosNegocio\\ObjetosNegocio.csproj",
+        "projectName": "ObjetosNegocio",
+        "projectPath": "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\ObjetosNegocio\\ObjetosNegocio.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\RegrasNegocio\\RegrasNegocio.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\RegrasNegocio\\RegrasNegocio.csproj",
+        "projectName": "RegrasNegocio",
+        "projectPath": "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\RegrasNegocio\\RegrasNegocio.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\Dados\\Dados.csproj": {
+                "projectPath": "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\Dados\\Dados.csproj"
+              },
+              "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\ObjetosNegocio\\ObjetosNegocio.csproj": {
+                "projectPath": "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\ObjetosNegocio\\ObjetosNegocio.csproj"
+              },
+              "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\TrataProblemas\\TrataProblemas.csproj": {
+                "projectPath": "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\TrataProblemas\\TrataProblemas.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\TestesUnitarios\\TestesUnitarios.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\TestesUnitarios\\TestesUnitarios.csproj",
+        "projectName": "TestesUnitarios",
+        "projectPath": "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\TestesUnitarios\\TestesUnitarios.csproj",
+        "packagesPath": "C:\\Users\\Pedro M Ribeiro\\.nuget\\packages\\",
+        "outputPath": "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\TestesUnitarios\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Pedro M Ribeiro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\ObjetosNegocio\\ObjetosNegocio.csproj": {
+                "projectPath": "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\ObjetosNegocio\\ObjetosNegocio.csproj"
+              },
+              "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\RegrasNegocio\\RegrasNegocio.csproj": {
+                "projectPath": "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\RegrasNegocio\\RegrasNegocio.csproj"
+              },
+              "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\TrataProblemas\\TrataProblemas.csproj": {
+                "projectPath": "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\TrataProblemas\\TrataProblemas.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MSTest": {
+              "target": "Package",
+              "version": "[3.6.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.11.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\TrataProblemas\\TrataProblemas.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\TrataProblemas\\TrataProblemas.csproj",
+        "projectName": "TrataProblemas",
+        "projectPath": "D:\\2ano\\1sem\\POO\\FASE2_PROJETO\\GestaoCentroSaude\\TrataProblemas\\TrataProblemas.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}

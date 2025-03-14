@@ -1,0 +1,159 @@
+\doxysection{Dados.\+Entidades.\+Medico Class Reference}
+\hypertarget{class_dados_1_1_entidades_1_1_medico}{}\label{class_dados_1_1_entidades_1_1_medico}\index{Dados.Entidades.Medico@{Dados.Entidades.Medico}}
+
+
+Classe para representar um médico, herdando de \doxylink{class_dados_1_1_entidades_1_1_pessoa}{Pessoa}.  
+
+
+Inheritance diagram for Dados.\+Entidades.\+Medico\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_dados_1_1_entidades_1_1_medico}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_dados_1_1_entidades_1_1_medico_a1154ba22f45b46c5ae0138a862decb6f}{Medico}} ()
+\begin{DoxyCompactList}\small\item\em Construtor padrão para criar um médico vazio. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_dados_1_1_entidades_1_1_medico_a3269510e30323860cc07acf864370526}{Medico}} (int id, string \mbox{\hyperlink{class_dados_1_1_entidades_1_1_pessoa_a9fcd19877ad26c006904be666b11ce0b}{Nome}}, int \mbox{\hyperlink{class_dados_1_1_entidades_1_1_medico_aad2a15369d4ff0f80748cf9ca8529d52}{Numero\+Cedula}})
+\begin{DoxyCompactList}\small\item\em Construtor para criar um médico com um identificador, nome e número de cédula. \end{DoxyCompactList}\item 
+override bool \mbox{\hyperlink{class_dados_1_1_entidades_1_1_medico_aea8703c227ead2af62b2799486b2faee}{Equals}} (object obj)
+\begin{DoxyCompactList}\small\item\em Verifica se a instância atual é igual a um objeto especificado. \end{DoxyCompactList}\item 
+override int \mbox{\hyperlink{class_dados_1_1_entidades_1_1_medico_a1e5dae179fd8d36460e43965f4605331}{Get\+Hash\+Code}} ()
+\begin{DoxyCompactList}\small\item\em Gera um código hash para a instância atual de \doxylink{class_dados_1_1_entidades_1_1_medico}{Medico}. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_dados_1_1_entidades_1_1_medico_a5540b7ede0ac41fe50cd2224172f6139}{Exportar}} (string nome\+Ficheiro)
+\begin{DoxyCompactList}\small\item\em Exporta os dados da classe para um ficheiro de texto. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_dados_1_1_entidades_1_1_pessoa}{Dados.\+Entidades.\+Pessoa}}}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries Pessoa} ()
+\begin{DoxyCompactList}\small\item\em Construtor padrão para criar uma pessoa vazia. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_dados_1_1_entidades_1_1_pessoa_a7292a2d84b560e736156adfe59a1e8f1}{Pessoa}} (int pessoa\+Id, string nome\+Pessoa)
+\begin{DoxyCompactList}\small\item\em Construtor para criar uma pessoa com ID e nome. \end{DoxyCompactList}\item 
+override bool \mbox{\hyperlink{class_dados_1_1_entidades_1_1_pessoa_abc472ad4d41b4e00a196878c74be78dd}{Equals}} (object obj)
+\begin{DoxyCompactList}\small\item\em Verifica se a instância atual é igual a um objeto especificado. \end{DoxyCompactList}\item 
+override int \mbox{\hyperlink{class_dados_1_1_entidades_1_1_pessoa_aa31c24fc60f19cf161f7a8310f098721}{Get\+Hash\+Code}} ()
+\begin{DoxyCompactList}\small\item\em Gera o código hash da instância. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_dados_1_1_entidades_1_1_pessoa_a65059b84d0bed05b96e00029748ad40c}{Obter\+Consultas\+Repositorio}} ()
+\begin{DoxyCompactList}\small\item\em Método comentado, que anteriormente associava um ID de repositório de consultas ao paciente. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_dados_1_1_entidades_1_1_medico_ac205f1551df11b4ebf465bbb42c3cec8}\label{class_dados_1_1_entidades_1_1_medico_ac205f1551df11b4ebf465bbb42c3cec8} 
+string {\bfseries Especialidade}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtém a especialidade do médico. \end{DoxyCompactList}\item 
+\Hypertarget{class_dados_1_1_entidades_1_1_medico_aad2a15369d4ff0f80748cf9ca8529d52}\label{class_dados_1_1_entidades_1_1_medico_aad2a15369d4ff0f80748cf9ca8529d52} 
+int {\bfseries Numero\+Cedula}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtém o número de ordem do médico. \end{DoxyCompactList}\item 
+\Hypertarget{class_dados_1_1_entidades_1_1_medico_a0dbf002ed4cdd71c3466dcf7a9d18e67}\label{class_dados_1_1_entidades_1_1_medico_a0dbf002ed4cdd71c3466dcf7a9d18e67} 
+bool {\bfseries Pode\+Adicionar\+Consulta}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtém um valor que indica se o médico pode adicionar consultas. \end{DoxyCompactList}\item 
+\Hypertarget{class_dados_1_1_entidades_1_1_medico_ad84e86ba0d488124385eebde4379a0c5}\label{class_dados_1_1_entidades_1_1_medico_ad84e86ba0d488124385eebde4379a0c5} 
+int {\bfseries Consultas\+Id}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtém o identificador de consultas. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties inherited from \mbox{\hyperlink{class_dados_1_1_entidades_1_1_pessoa}{Dados.\+Entidades.\+Pessoa}}}
+\begin{DoxyCompactItemize}
+\item 
+int {\bfseries Id}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtém o ID da pessoa. \end{DoxyCompactList}\item 
+string {\bfseries Nome}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtém o nome da pessoa. \end{DoxyCompactList}\item 
+string {\bfseries Genero}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtém o género da pessoa. \end{DoxyCompactList}\item 
+Date\+Time {\bfseries Data\+Nascimento}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtém a data de nascimento da pessoa. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Classe para representar um médico, herdando de \doxylink{class_dados_1_1_entidades_1_1_pessoa}{Pessoa}. 
+
+A classe \doxylink{class_dados_1_1_entidades_1_1_medico}{Medico} representa um médico no sistema e herda as propriedades básicas da classe \doxylink{class_dados_1_1_entidades_1_1_pessoa}{Pessoa}. Inclui atributos específicos, como especialidade e número de ordem, além de métodos para comparar instâncias e gerar códigos hash. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_dados_1_1_entidades_1_1_medico_a1154ba22f45b46c5ae0138a862decb6f}\index{Dados.Entidades.Medico@{Dados.Entidades.Medico}!Medico@{Medico}}
+\index{Medico@{Medico}!Dados.Entidades.Medico@{Dados.Entidades.Medico}}
+\doxysubsubsection{\texorpdfstring{Medico()}{Medico()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_dados_1_1_entidades_1_1_medico_a1154ba22f45b46c5ae0138a862decb6f} 
+Dados.\+Entidades.\+Medico.\+Medico (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Construtor padrão para criar um médico vazio. 
+
+Este construtor inicializa um médico sem definir dados específicos.\Hypertarget{class_dados_1_1_entidades_1_1_medico_a3269510e30323860cc07acf864370526}\index{Dados.Entidades.Medico@{Dados.Entidades.Medico}!Medico@{Medico}}
+\index{Medico@{Medico}!Dados.Entidades.Medico@{Dados.Entidades.Medico}}
+\doxysubsubsection{\texorpdfstring{Medico()}{Medico()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_dados_1_1_entidades_1_1_medico_a3269510e30323860cc07acf864370526} 
+Dados.\+Entidades.\+Medico.\+Medico (\begin{DoxyParamCaption}\item[{int}]{id}{, }\item[{string}]{Nome}{, }\item[{int}]{Numero\+Cedula}{}\end{DoxyParamCaption})}
+
+
+
+Construtor para criar um médico com um identificador, nome e número de cédula. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & Identificador único do médico.\\
+\hline
+{\em Nome} & Nome do médico.\\
+\hline
+{\em Numero\+Cedula} & Número de ordem do médico.\\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_dados_1_1_entidades_1_1_medico_aea8703c227ead2af62b2799486b2faee}\index{Dados.Entidades.Medico@{Dados.Entidades.Medico}!Equals@{Equals}}
+\index{Equals@{Equals}!Dados.Entidades.Medico@{Dados.Entidades.Medico}}
+\doxysubsubsection{\texorpdfstring{Equals()}{Equals()}}
+{\footnotesize\ttfamily \label{class_dados_1_1_entidades_1_1_medico_aea8703c227ead2af62b2799486b2faee} 
+override bool Dados.\+Entidades.\+Medico.\+Equals (\begin{DoxyParamCaption}\item[{object}]{obj}{}\end{DoxyParamCaption})}
+
+
+
+Verifica se a instância atual é igual a um objeto especificado. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & O objeto a ser comparado com a instância atual.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna {\ttfamily true} se o objeto especificado for igual à instância atual; caso contrário, retorna {\ttfamily false}. 
+\end{DoxyReturn}
+\Hypertarget{class_dados_1_1_entidades_1_1_medico_a5540b7ede0ac41fe50cd2224172f6139}\index{Dados.Entidades.Medico@{Dados.Entidades.Medico}!Exportar@{Exportar}}
+\index{Exportar@{Exportar}!Dados.Entidades.Medico@{Dados.Entidades.Medico}}
+\doxysubsubsection{\texorpdfstring{Exportar()}{Exportar()}}
+{\footnotesize\ttfamily \label{class_dados_1_1_entidades_1_1_medico_a5540b7ede0ac41fe50cd2224172f6139} 
+bool Dados.\+Entidades.\+Medico.\+Exportar (\begin{DoxyParamCaption}\item[{string}]{nome\+Ficheiro}{}\end{DoxyParamCaption})}
+
+
+
+Exporta os dados da classe para um ficheiro de texto. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome\+Ficheiro} & Nome do ficheiro para o qual os dados serão exportados.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna {\ttfamily true} se a exportação for bem-\/sucedida, ou {\ttfamily false} em caso de erro. 
+\end{DoxyReturn}
+\Hypertarget{class_dados_1_1_entidades_1_1_medico_a1e5dae179fd8d36460e43965f4605331}\index{Dados.Entidades.Medico@{Dados.Entidades.Medico}!GetHashCode@{GetHashCode}}
+\index{GetHashCode@{GetHashCode}!Dados.Entidades.Medico@{Dados.Entidades.Medico}}
+\doxysubsubsection{\texorpdfstring{GetHashCode()}{GetHashCode()}}
+{\footnotesize\ttfamily \label{class_dados_1_1_entidades_1_1_medico_a1e5dae179fd8d36460e43965f4605331} 
+override int Dados.\+Entidades.\+Medico.\+Get\+Hash\+Code (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Gera um código hash para a instância atual de \doxylink{class_dados_1_1_entidades_1_1_medico}{Medico}. 
+
+\begin{DoxyReturn}{Returns}
+O código hash da instância atual, baseado no hash gerado pela classe base \doxylink{class_dados_1_1_entidades_1_1_pessoa}{Pessoa}. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/2ano/1sem/\+POO/\+FASE2\+\_\+\+PROJETO/\+Gestao\+Centro\+Saude/\+Dados/\+Entidades/Medico.\+cs\end{DoxyCompactItemize}

@@ -1,0 +1,13 @@
+D:\2ano\1sem\POO\FASE2_PROJETO\GestaoCentroSaude\RegrasNegocio\bin\Debug\RegrasNegocio.dll
+D:\2ano\1sem\POO\FASE2_PROJETO\GestaoCentroSaude\RegrasNegocio\bin\Debug\RegrasNegocio.pdb
+D:\2ano\1sem\POO\FASE2_PROJETO\GestaoCentroSaude\RegrasNegocio\bin\Debug\Dados.dll
+D:\2ano\1sem\POO\FASE2_PROJETO\GestaoCentroSaude\RegrasNegocio\bin\Debug\ObjetosNegocio.dll
+D:\2ano\1sem\POO\FASE2_PROJETO\GestaoCentroSaude\RegrasNegocio\bin\Debug\Dados.pdb
+D:\2ano\1sem\POO\FASE2_PROJETO\GestaoCentroSaude\RegrasNegocio\bin\Debug\ObjetosNegocio.pdb
+D:\2ano\1sem\POO\FASE2_PROJETO\GestaoCentroSaude\RegrasNegocio\obj\Debug\RegrasNegocio.csproj.AssemblyReference.cache
+D:\2ano\1sem\POO\FASE2_PROJETO\GestaoCentroSaude\RegrasNegocio\obj\Debug\RegrasNegocio.csproj.CoreCompileInputs.cache
+D:\2ano\1sem\POO\FASE2_PROJETO\GestaoCentroSaude\RegrasNegocio\obj\Debug\RegrasNe.BCBC36E9.Up2Date
+D:\2ano\1sem\POO\FASE2_PROJETO\GestaoCentroSaude\RegrasNegocio\obj\Debug\RegrasNegocio.dll
+D:\2ano\1sem\POO\FASE2_PROJETO\GestaoCentroSaude\RegrasNegocio\obj\Debug\RegrasNegocio.pdb
+D:\2ano\1sem\POO\FASE2_PROJETO\GestaoCentroSaude\RegrasNegocio\bin\Debug\TrataProblemas.dll
+D:\2ano\1sem\POO\FASE2_PROJETO\GestaoCentroSaude\RegrasNegocio\bin\Debug\TrataProblemas.pdb

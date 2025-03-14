@@ -1,0 +1,227 @@
+\doxysection{Regras\+Negocio.\+Servicos.\+Gestao\+Pacientes Class Reference}
+\hypertarget{class_regras_negocio_1_1_servicos_1_1_gestao_pacientes}{}\label{class_regras_negocio_1_1_servicos_1_1_gestao_pacientes}\index{RegrasNegocio.Servicos.GestaoPacientes@{RegrasNegocio.Servicos.GestaoPacientes}}
+
+
+Classe de serviços para a gestão dos pacientes no sistema.  
+
+
+Inheritance diagram for Regras\+Negocio.\+Servicos.\+Gestao\+Pacientes\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_regras_negocio_1_1_servicos_1_1_gestao_pacientes}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_regras_negocio_1_1_servicos_1_1_gestao_pacientes_a00d2136928d4bd167f8b43e682fc150e}\label{class_regras_negocio_1_1_servicos_1_1_gestao_pacientes_a00d2136928d4bd167f8b43e682fc150e} 
+{\bfseries Gestao\+Pacientes} ()
+\begin{DoxyCompactList}\small\item\em Construtor da classe {\ttfamily \doxylink{class_regras_negocio_1_1_servicos_1_1_gestao_pacientes}{Gestao\+Pacientes}}. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_regras_negocio_1_1_servicos_1_1_gestao_pacientes_a8733832e5e444b56ffdb90d8ebe16abc}{Adicionar\+Paciente}} (\mbox{\hyperlink{class_objetos_negocio_1_1_classes_light_1_1_paciente_light}{Paciente\+Light}} paciente\+Light, \mbox{\hyperlink{class_objetos_negocio_1_1_classes_light_1_1_medico_light}{Medico\+Light}} medico\+Light)
+\begin{DoxyCompactList}\small\item\em Adiciona um novo paciente ao sistema. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_regras_negocio_1_1_servicos_1_1_gestao_pacientes_affde350aad8fb6baac2c76ca4921342c}{Eliminar\+Paciente}} (int paciente\+Id, int password)
+\begin{DoxyCompactList}\small\item\em Elimina um paciente existente no sistema. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_regras_negocio_1_1_servicos_1_1_gestao_pacientes_ab2fd5f671a6f400783d91ab85356321f}{Existe\+Paciente}} (int paciente\+Id, \mbox{\hyperlink{class_objetos_negocio_1_1_classes_light_1_1_medico_light}{Medico\+Light}} medico\+Light)
+\begin{DoxyCompactList}\small\item\em Verifica se um paciente existe no sistema. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_objetos_negocio_1_1_classes_light_1_1_paciente_light}{Paciente\+Light}} \mbox{\hyperlink{class_regras_negocio_1_1_servicos_1_1_gestao_pacientes_af4d22583ca3c6fa1b35b1cc98227f886}{Obter\+Paciente}} (int paciente\+Id, \mbox{\hyperlink{class_objetos_negocio_1_1_classes_light_1_1_medico_light}{Medico\+Light}} medico\+Light)
+\begin{DoxyCompactList}\small\item\em Obtém um paciente pelo seu identificador. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_regras_negocio_1_1_servicos_1_1_gestao_pacientes_a00572cddd9de50ac07775a3c722c0f86}{Obter\+Consultas\+Id\+Do\+Paciente}} (int paciente\+Id, \mbox{\hyperlink{class_objetos_negocio_1_1_classes_light_1_1_medico_light}{Medico\+Light}} medico\+Light)
+\begin{DoxyCompactList}\small\item\em Obtém o ID de consultas associado a um paciente. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_regras_negocio_1_1_servicos_1_1_gestao_pacientes_a7eb4e51386c5e26595626843473f8f34}{Exportar\+Pacientes\+Para\+Ficheiro}} (string nome\+Ficheiro)
+\begin{DoxyCompactList}\small\item\em Exporta os pacientes para um ficheiro binário. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{interface_regras_negocio_1_1_interfaces_1_1_i_gestao_pacientes}{Regras\+Negocio.\+Interfaces.\+IGestao\+Pacientes}}}
+
+
+\doxysubsection{Detailed Description}
+Classe de serviços para a gestão dos pacientes no sistema. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_regras_negocio_1_1_servicos_1_1_gestao_pacientes_a8733832e5e444b56ffdb90d8ebe16abc}\index{RegrasNegocio.Servicos.GestaoPacientes@{RegrasNegocio.Servicos.GestaoPacientes}!AdicionarPaciente@{AdicionarPaciente}}
+\index{AdicionarPaciente@{AdicionarPaciente}!RegrasNegocio.Servicos.GestaoPacientes@{RegrasNegocio.Servicos.GestaoPacientes}}
+\doxysubsubsection{\texorpdfstring{AdicionarPaciente()}{AdicionarPaciente()}}
+{\footnotesize\ttfamily \label{class_regras_negocio_1_1_servicos_1_1_gestao_pacientes_a8733832e5e444b56ffdb90d8ebe16abc} 
+bool Regras\+Negocio.\+Servicos.\+Gestao\+Pacientes.\+Adicionar\+Paciente (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_objetos_negocio_1_1_classes_light_1_1_paciente_light}{Paciente\+Light}}}]{paciente\+Light}{, }\item[{\mbox{\hyperlink{class_objetos_negocio_1_1_classes_light_1_1_medico_light}{Medico\+Light}}}]{medico\+Light}{}\end{DoxyParamCaption})}
+
+
+
+Adiciona um novo paciente ao sistema. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em paciente\+Light} & Objeto com as informações mínimas de um paciente.\\
+\hline
+{\em medico\+Light} & Objeto representando o médico responsável pela operação.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} se o paciente for adicionado com sucesso, {\ttfamily false} caso contrário.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Argument\+Null\+Exception} & Se o parâmetro {\ttfamily paciente\+Light} ou {\ttfamily medico\+Light} for nulo.\\
+\hline
+{\em Medico\+Nao\+Autorizado\+Exception} & Se o médico não tiver autorização para adicionar pacientes.\\
+\hline
+{\em Entidade\+Ja\+Existe\+Exception} & Se o paciente já existir no sistema.\\
+\hline
+\end{DoxyExceptions}
+
+
+Implements \mbox{\hyperlink{interface_regras_negocio_1_1_interfaces_1_1_i_gestao_pacientes_adca54fa5d3ba33ebd40ba7b05449e164}{Regras\+Negocio.\+Interfaces.\+IGestao\+Pacientes}}.
+
+\Hypertarget{class_regras_negocio_1_1_servicos_1_1_gestao_pacientes_affde350aad8fb6baac2c76ca4921342c}\index{RegrasNegocio.Servicos.GestaoPacientes@{RegrasNegocio.Servicos.GestaoPacientes}!EliminarPaciente@{EliminarPaciente}}
+\index{EliminarPaciente@{EliminarPaciente}!RegrasNegocio.Servicos.GestaoPacientes@{RegrasNegocio.Servicos.GestaoPacientes}}
+\doxysubsubsection{\texorpdfstring{EliminarPaciente()}{EliminarPaciente()}}
+{\footnotesize\ttfamily \label{class_regras_negocio_1_1_servicos_1_1_gestao_pacientes_affde350aad8fb6baac2c76ca4921342c} 
+bool Regras\+Negocio.\+Servicos.\+Gestao\+Pacientes.\+Eliminar\+Paciente (\begin{DoxyParamCaption}\item[{int}]{paciente\+Id}{, }\item[{int}]{password}{}\end{DoxyParamCaption})}
+
+
+
+Elimina um paciente existente no sistema. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em paciente\+Id} & Identificador único do paciente.\\
+\hline
+{\em password} & Senha necessária para a operação.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} se o paciente for eliminado com sucesso, {\ttfamily false} caso contrário.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Colecao\+Nao\+Inicializada\+Exception} & Se a coleção de pacientes não estiver inicializada.\\
+\hline
+{\em Exception} & Exceção geral em caso de erro não específico.\\
+\hline
+\end{DoxyExceptions}
+
+
+Implements \mbox{\hyperlink{interface_regras_negocio_1_1_interfaces_1_1_i_gestao_pacientes_ab7e1607c53f688449605510ceb9e0f19}{Regras\+Negocio.\+Interfaces.\+IGestao\+Pacientes}}.
+
+\Hypertarget{class_regras_negocio_1_1_servicos_1_1_gestao_pacientes_ab2fd5f671a6f400783d91ab85356321f}\index{RegrasNegocio.Servicos.GestaoPacientes@{RegrasNegocio.Servicos.GestaoPacientes}!ExistePaciente@{ExistePaciente}}
+\index{ExistePaciente@{ExistePaciente}!RegrasNegocio.Servicos.GestaoPacientes@{RegrasNegocio.Servicos.GestaoPacientes}}
+\doxysubsubsection{\texorpdfstring{ExistePaciente()}{ExistePaciente()}}
+{\footnotesize\ttfamily \label{class_regras_negocio_1_1_servicos_1_1_gestao_pacientes_ab2fd5f671a6f400783d91ab85356321f} 
+bool Regras\+Negocio.\+Servicos.\+Gestao\+Pacientes.\+Existe\+Paciente (\begin{DoxyParamCaption}\item[{int}]{paciente\+Id}{, }\item[{\mbox{\hyperlink{class_objetos_negocio_1_1_classes_light_1_1_medico_light}{Medico\+Light}}}]{medico\+Light}{}\end{DoxyParamCaption})}
+
+
+
+Verifica se um paciente existe no sistema. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em paciente\+Id} & Identificador único do paciente.\\
+\hline
+{\em medico\+Light} & Objeto representando o médico responsável pela operação.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} se o paciente existir, {\ttfamily false} caso contrário.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Argument\+Null\+Exception} & Se o parâmetro {\ttfamily medico\+Light} for nulo.\\
+\hline
+{\em Medico\+Nao\+Autorizado\+Exception} & Se o médico não tiver autorização para verificar pacientes.\\
+\hline
+\end{DoxyExceptions}
+
+
+Implements \mbox{\hyperlink{interface_regras_negocio_1_1_interfaces_1_1_i_gestao_pacientes_a1b420c6ad917f32f8932dd0173a05fd4}{Regras\+Negocio.\+Interfaces.\+IGestao\+Pacientes}}.
+
+\Hypertarget{class_regras_negocio_1_1_servicos_1_1_gestao_pacientes_a7eb4e51386c5e26595626843473f8f34}\index{RegrasNegocio.Servicos.GestaoPacientes@{RegrasNegocio.Servicos.GestaoPacientes}!ExportarPacientesParaFicheiro@{ExportarPacientesParaFicheiro}}
+\index{ExportarPacientesParaFicheiro@{ExportarPacientesParaFicheiro}!RegrasNegocio.Servicos.GestaoPacientes@{RegrasNegocio.Servicos.GestaoPacientes}}
+\doxysubsubsection{\texorpdfstring{ExportarPacientesParaFicheiro()}{ExportarPacientesParaFicheiro()}}
+{\footnotesize\ttfamily \label{class_regras_negocio_1_1_servicos_1_1_gestao_pacientes_a7eb4e51386c5e26595626843473f8f34} 
+bool Regras\+Negocio.\+Servicos.\+Gestao\+Pacientes.\+Exportar\+Pacientes\+Para\+Ficheiro (\begin{DoxyParamCaption}\item[{string}]{nome\+Ficheiro}{}\end{DoxyParamCaption})}
+
+
+
+Exporta os pacientes para um ficheiro binário. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome\+Ficheiro} & Nome do ficheiro para o qual os dados serão exportados.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} se a exportação for bem-\/sucedida, {\ttfamily false} em caso de erro.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & Exceção lançada caso ocorra algum erro durante a exportação.\\
+\hline
+\end{DoxyExceptions}
+
+
+Implements \mbox{\hyperlink{interface_regras_negocio_1_1_interfaces_1_1_i_gestao_pacientes_a46f96a3876b2c46aa313d708e428ea6c}{Regras\+Negocio.\+Interfaces.\+IGestao\+Pacientes}}.
+
+\Hypertarget{class_regras_negocio_1_1_servicos_1_1_gestao_pacientes_a00572cddd9de50ac07775a3c722c0f86}\index{RegrasNegocio.Servicos.GestaoPacientes@{RegrasNegocio.Servicos.GestaoPacientes}!ObterConsultasIdDoPaciente@{ObterConsultasIdDoPaciente}}
+\index{ObterConsultasIdDoPaciente@{ObterConsultasIdDoPaciente}!RegrasNegocio.Servicos.GestaoPacientes@{RegrasNegocio.Servicos.GestaoPacientes}}
+\doxysubsubsection{\texorpdfstring{ObterConsultasIdDoPaciente()}{ObterConsultasIdDoPaciente()}}
+{\footnotesize\ttfamily \label{class_regras_negocio_1_1_servicos_1_1_gestao_pacientes_a00572cddd9de50ac07775a3c722c0f86} 
+int Regras\+Negocio.\+Servicos.\+Gestao\+Pacientes.\+Obter\+Consultas\+Id\+Do\+Paciente (\begin{DoxyParamCaption}\item[{int}]{paciente\+Id}{, }\item[{\mbox{\hyperlink{class_objetos_negocio_1_1_classes_light_1_1_medico_light}{Medico\+Light}}}]{medico\+Light}{}\end{DoxyParamCaption})}
+
+
+
+Obtém o ID de consultas associado a um paciente. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em paciente\+Id} & Identificador único do paciente.\\
+\hline
+{\em medico\+Light} & Objeto representando o médico responsável pela operação.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+O ID de consultas associado ao paciente.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Argument\+Null\+Exception} & Se o parâmetro {\ttfamily medico\+Light} for nulo.\\
+\hline
+{\em Medico\+Nao\+Autorizado\+Exception} & Se o médico não tiver autorização para obter o ID de consultas.\\
+\hline
+\end{DoxyExceptions}
+
+
+Implements \mbox{\hyperlink{interface_regras_negocio_1_1_interfaces_1_1_i_gestao_pacientes_ac043f8a07bfe5e71c6860ff9dbe9ae9c}{Regras\+Negocio.\+Interfaces.\+IGestao\+Pacientes}}.
+
+\Hypertarget{class_regras_negocio_1_1_servicos_1_1_gestao_pacientes_af4d22583ca3c6fa1b35b1cc98227f886}\index{RegrasNegocio.Servicos.GestaoPacientes@{RegrasNegocio.Servicos.GestaoPacientes}!ObterPaciente@{ObterPaciente}}
+\index{ObterPaciente@{ObterPaciente}!RegrasNegocio.Servicos.GestaoPacientes@{RegrasNegocio.Servicos.GestaoPacientes}}
+\doxysubsubsection{\texorpdfstring{ObterPaciente()}{ObterPaciente()}}
+{\footnotesize\ttfamily \label{class_regras_negocio_1_1_servicos_1_1_gestao_pacientes_af4d22583ca3c6fa1b35b1cc98227f886} 
+\mbox{\hyperlink{class_objetos_negocio_1_1_classes_light_1_1_paciente_light}{Paciente\+Light}} Regras\+Negocio.\+Servicos.\+Gestao\+Pacientes.\+Obter\+Paciente (\begin{DoxyParamCaption}\item[{int}]{paciente\+Id}{, }\item[{\mbox{\hyperlink{class_objetos_negocio_1_1_classes_light_1_1_medico_light}{Medico\+Light}}}]{medico\+Light}{}\end{DoxyParamCaption})}
+
+
+
+Obtém um paciente pelo seu identificador. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em paciente\+Id} & Identificador único do paciente.\\
+\hline
+{\em medico\+Light} & Objeto representando o médico responsável pela operação.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Um objeto do tipo {\ttfamily Paciente\+Light} representando o paciente.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Argument\+Null\+Exception} & Se o parâmetro {\ttfamily medico\+Light} for nulo.\\
+\hline
+{\em Medico\+Nao\+Autorizado\+Exception} & Se o médico não tiver autorização para obter pacientes.\\
+\hline
+\end{DoxyExceptions}
+
+
+Implements \mbox{\hyperlink{interface_regras_negocio_1_1_interfaces_1_1_i_gestao_pacientes_a5d6f144629df771abefa66d1754b97e0}{Regras\+Negocio.\+Interfaces.\+IGestao\+Pacientes}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/2ano/1sem/\+POO/\+FASE2\+\_\+\+PROJETO/\+Gestao\+Centro\+Saude/\+Regras\+Negocio/\+Servicos/Gestao\+Pacientes.\+cs\end{DoxyCompactItemize}

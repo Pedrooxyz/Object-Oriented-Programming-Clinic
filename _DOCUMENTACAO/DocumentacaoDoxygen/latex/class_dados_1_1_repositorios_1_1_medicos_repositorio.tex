@@ -1,0 +1,227 @@
+\doxysection{Dados.\+Repositorios.\+Medicos\+Repositorio Class Reference}
+\hypertarget{class_dados_1_1_repositorios_1_1_medicos_repositorio}{}\label{class_dados_1_1_repositorios_1_1_medicos_repositorio}\index{Dados.Repositorios.MedicosRepositorio@{Dados.Repositorios.MedicosRepositorio}}
+
+
+Classe responsável pela gestão de médicos num repositório.  
+
+
+Inheritance diagram for Dados.\+Repositorios.\+Medicos\+Repositorio\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_dados_1_1_repositorios_1_1_medicos_repositorio}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_dados_1_1_repositorios_1_1_medicos_repositorio_a3c8354b08884696bcc95de72a35b1069}{Medicos\+Repositorio}} ()
+\begin{DoxyCompactList}\small\item\em Construtor que inicializa o repositório com uma lista de médicos vazia e atribui um ID único. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_dados_1_1_repositorios_1_1_medicos_repositorio_a4f6a2feebbd50eddfe4f92a559b1562a}{Adicionar}} (\mbox{\hyperlink{class_dados_1_1_entidades_1_1_medico}{Medico}} medico)
+\begin{DoxyCompactList}\small\item\em Adiciona um médico ao repositório. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_dados_1_1_repositorios_1_1_medicos_repositorio_ab59acb066b8ce7e7f204dfbc548fc0c2}{Remover}} (int medico\+Id)
+\begin{DoxyCompactList}\small\item\em Remove um médico do repositório. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_dados_1_1_repositorios_1_1_medicos_repositorio_aa19969e607a198d82b9d8f9b836f94af}{Existe}} (int medico\+Id)
+\begin{DoxyCompactList}\small\item\em Verifica a existência de um médico no repositório. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_dados_1_1_entidades_1_1_medico}{Medico}} \mbox{\hyperlink{class_dados_1_1_repositorios_1_1_medicos_repositorio_a1c7cf1638aec75fd807718b45c8a3a18}{Obter\+Por\+Id}} (int medico\+Id)
+\begin{DoxyCompactList}\small\item\em Obtém um médico pelo ID. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_dados_1_1_repositorios_1_1_medicos_repositorio_a5d15a4b4b1fda9933f8defe1d2bbe2dc}{Adicionar\+Light}} (\mbox{\hyperlink{class_objetos_negocio_1_1_classes_light_1_1_medico_light}{Medico\+Light}} medico\+Light)
+\begin{DoxyCompactList}\small\item\em Adiciona um médico utilizando uma versão simplificada de dados. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_objetos_negocio_1_1_classes_light_1_1_medico_light}{Medico\+Light}} \mbox{\hyperlink{class_dados_1_1_repositorios_1_1_medicos_repositorio_a4fad9a41ca9937c4864993751d671214}{Obter\+Medico\+Light}} (int medico\+Id)
+\begin{DoxyCompactList}\small\item\em Obtém um médico simplificado ({\ttfamily Medico\+Light}) pelo ID. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_dados_1_1_repositorios_1_1_medicos_repositorio_a55bc410c47f4ff7448f0d83d7e2fc5d2}{Obter\+Consultas\+Id\+Medico}} (int medico\+Id)
+\begin{DoxyCompactList}\small\item\em Associa um repositório de consultas a um médico. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_dados_1_1_repositorios_1_1_medicos_repositorio_a0c10ae8c959f4fb867752104c8db5c80}{Exportar\+Medicos}} (string nome\+Ficheiro)
+\begin{DoxyCompactList}\small\item\em Exporta todas os medicos para um ficheiro binário. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{interface_dados_1_1_interfaces_1_1_i_repositorio}{Dados.\+Interfaces.\+IRepositorio$<$ Medico $>$}}}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{interface_dados_1_1_interfaces_1_1_i_repositorio_a4e2a7f4d249731ac1c4ec141cde0b372}{Adicionar}} (T item)
+\begin{DoxyCompactList}\small\item\em Adiciona um item ao repositório. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{interface_dados_1_1_interfaces_1_1_i_repositorio_aaa9b237c49c14d1e33f6c13bad05c963}{Remover}} (int id)
+\begin{DoxyCompactList}\small\item\em Remove um item do repositório com base no seu ID. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{interface_dados_1_1_interfaces_1_1_i_repositorio_a16fa104709a56a8d67a1f9e67c902c47}{Existe}} (int id)
+\begin{DoxyCompactList}\small\item\em Verifica se um item existe no repositório com base no seu ID. \end{DoxyCompactList}\item 
+T \mbox{\hyperlink{interface_dados_1_1_interfaces_1_1_i_repositorio_a58885b2270e470f5dda6ff03ca63d992}{Obter\+Por\+Id}} (int id)
+\begin{DoxyCompactList}\small\item\em Obtém um item do repositório com base no seu ID. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Classe responsável pela gestão de médicos num repositório. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_dados_1_1_repositorios_1_1_medicos_repositorio_a3c8354b08884696bcc95de72a35b1069}\index{Dados.Repositorios.MedicosRepositorio@{Dados.Repositorios.MedicosRepositorio}!MedicosRepositorio@{MedicosRepositorio}}
+\index{MedicosRepositorio@{MedicosRepositorio}!Dados.Repositorios.MedicosRepositorio@{Dados.Repositorios.MedicosRepositorio}}
+\doxysubsubsection{\texorpdfstring{MedicosRepositorio()}{MedicosRepositorio()}}
+{\footnotesize\ttfamily \label{class_dados_1_1_repositorios_1_1_medicos_repositorio_a3c8354b08884696bcc95de72a35b1069} 
+Dados.\+Repositorios.\+Medicos\+Repositorio.\+Medicos\+Repositorio (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Construtor que inicializa o repositório com uma lista de médicos vazia e atribui um ID único. 
+
+Este construtor inicializa o contador estático e cria a lista de médicos vazia para o repositório. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_dados_1_1_repositorios_1_1_medicos_repositorio_a4f6a2feebbd50eddfe4f92a559b1562a}\index{Dados.Repositorios.MedicosRepositorio@{Dados.Repositorios.MedicosRepositorio}!Adicionar@{Adicionar}}
+\index{Adicionar@{Adicionar}!Dados.Repositorios.MedicosRepositorio@{Dados.Repositorios.MedicosRepositorio}}
+\doxysubsubsection{\texorpdfstring{Adicionar()}{Adicionar()}}
+{\footnotesize\ttfamily \label{class_dados_1_1_repositorios_1_1_medicos_repositorio_a4f6a2feebbd50eddfe4f92a559b1562a} 
+bool Dados.\+Repositorios.\+Medicos\+Repositorio.\+Adicionar (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_dados_1_1_entidades_1_1_medico}{Medico}}}]{medico}{}\end{DoxyParamCaption})}
+
+
+
+Adiciona um médico ao repositório. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em medico} & Objeto do tipo {\ttfamily Medico} a ser adicionado.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} se o médico foi adicionado com sucesso.
+\end{DoxyReturn}
+\Hypertarget{class_dados_1_1_repositorios_1_1_medicos_repositorio_a5d15a4b4b1fda9933f8defe1d2bbe2dc}\index{Dados.Repositorios.MedicosRepositorio@{Dados.Repositorios.MedicosRepositorio}!AdicionarLight@{AdicionarLight}}
+\index{AdicionarLight@{AdicionarLight}!Dados.Repositorios.MedicosRepositorio@{Dados.Repositorios.MedicosRepositorio}}
+\doxysubsubsection{\texorpdfstring{AdicionarLight()}{AdicionarLight()}}
+{\footnotesize\ttfamily \label{class_dados_1_1_repositorios_1_1_medicos_repositorio_a5d15a4b4b1fda9933f8defe1d2bbe2dc} 
+bool Dados.\+Repositorios.\+Medicos\+Repositorio.\+Adicionar\+Light (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_objetos_negocio_1_1_classes_light_1_1_medico_light}{Medico\+Light}}}]{medico\+Light}{}\end{DoxyParamCaption})}
+
+
+
+Adiciona um médico utilizando uma versão simplificada de dados. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em medico\+Light} & Objeto do tipo {\ttfamily Medico\+Light} a ser adicionado.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} se o médico foi adicionado com sucesso.
+\end{DoxyReturn}
+\Hypertarget{class_dados_1_1_repositorios_1_1_medicos_repositorio_aa19969e607a198d82b9d8f9b836f94af}\index{Dados.Repositorios.MedicosRepositorio@{Dados.Repositorios.MedicosRepositorio}!Existe@{Existe}}
+\index{Existe@{Existe}!Dados.Repositorios.MedicosRepositorio@{Dados.Repositorios.MedicosRepositorio}}
+\doxysubsubsection{\texorpdfstring{Existe()}{Existe()}}
+{\footnotesize\ttfamily \label{class_dados_1_1_repositorios_1_1_medicos_repositorio_aa19969e607a198d82b9d8f9b836f94af} 
+bool Dados.\+Repositorios.\+Medicos\+Repositorio.\+Existe (\begin{DoxyParamCaption}\item[{int}]{medico\+Id}{}\end{DoxyParamCaption})}
+
+
+
+Verifica a existência de um médico no repositório. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em medico\+Id} & ID do médico a ser verificado.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} se o médico existir, {\ttfamily false} caso contrário.
+\end{DoxyReturn}
+\Hypertarget{class_dados_1_1_repositorios_1_1_medicos_repositorio_a0c10ae8c959f4fb867752104c8db5c80}\index{Dados.Repositorios.MedicosRepositorio@{Dados.Repositorios.MedicosRepositorio}!ExportarMedicos@{ExportarMedicos}}
+\index{ExportarMedicos@{ExportarMedicos}!Dados.Repositorios.MedicosRepositorio@{Dados.Repositorios.MedicosRepositorio}}
+\doxysubsubsection{\texorpdfstring{ExportarMedicos()}{ExportarMedicos()}}
+{\footnotesize\ttfamily \label{class_dados_1_1_repositorios_1_1_medicos_repositorio_a0c10ae8c959f4fb867752104c8db5c80} 
+bool Dados.\+Repositorios.\+Medicos\+Repositorio.\+Exportar\+Medicos (\begin{DoxyParamCaption}\item[{string}]{nome\+Ficheiro}{}\end{DoxyParamCaption})}
+
+
+
+Exporta todas os medicos para um ficheiro binário. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome\+Ficheiro} & Nome do ficheiro onde os dados serão exportados.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} se a exportação for bem-\/sucedida, {\ttfamily false} caso contrário.
+\end{DoxyReturn}
+\Hypertarget{class_dados_1_1_repositorios_1_1_medicos_repositorio_a55bc410c47f4ff7448f0d83d7e2fc5d2}\index{Dados.Repositorios.MedicosRepositorio@{Dados.Repositorios.MedicosRepositorio}!ObterConsultasIdMedico@{ObterConsultasIdMedico}}
+\index{ObterConsultasIdMedico@{ObterConsultasIdMedico}!Dados.Repositorios.MedicosRepositorio@{Dados.Repositorios.MedicosRepositorio}}
+\doxysubsubsection{\texorpdfstring{ObterConsultasIdMedico()}{ObterConsultasIdMedico()}}
+{\footnotesize\ttfamily \label{class_dados_1_1_repositorios_1_1_medicos_repositorio_a55bc410c47f4ff7448f0d83d7e2fc5d2} 
+int Dados.\+Repositorios.\+Medicos\+Repositorio.\+Obter\+Consultas\+Id\+Medico (\begin{DoxyParamCaption}\item[{int}]{medico\+Id}{}\end{DoxyParamCaption})}
+
+
+
+Associa um repositório de consultas a um médico. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em medico\+Id} & ID do médico a ser associado.\\
+\hline
+{\em repositorio\+Id} & ID do repositório de consultas a ser associado.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} se a associação for bem-\/sucedida.
+\end{DoxyReturn}
+
+
+Obtém o ID do repositório de consultas associado a um médico.
+
+
+\begin{DoxyParams}{Parameters}
+{\em medico\+Id} & ID do médico.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+O ID do repositório de consultas associado.
+\end{DoxyReturn}
+\Hypertarget{class_dados_1_1_repositorios_1_1_medicos_repositorio_a4fad9a41ca9937c4864993751d671214}\index{Dados.Repositorios.MedicosRepositorio@{Dados.Repositorios.MedicosRepositorio}!ObterMedicoLight@{ObterMedicoLight}}
+\index{ObterMedicoLight@{ObterMedicoLight}!Dados.Repositorios.MedicosRepositorio@{Dados.Repositorios.MedicosRepositorio}}
+\doxysubsubsection{\texorpdfstring{ObterMedicoLight()}{ObterMedicoLight()}}
+{\footnotesize\ttfamily \label{class_dados_1_1_repositorios_1_1_medicos_repositorio_a4fad9a41ca9937c4864993751d671214} 
+\mbox{\hyperlink{class_objetos_negocio_1_1_classes_light_1_1_medico_light}{Medico\+Light}} Dados.\+Repositorios.\+Medicos\+Repositorio.\+Obter\+Medico\+Light (\begin{DoxyParamCaption}\item[{int}]{medico\+Id}{}\end{DoxyParamCaption})}
+
+
+
+Obtém um médico simplificado ({\ttfamily Medico\+Light}) pelo ID. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em medico\+Id} & ID do médico a ser obtido.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Um objeto {\ttfamily Medico\+Light} representando o médico simplificado.
+\end{DoxyReturn}
+\Hypertarget{class_dados_1_1_repositorios_1_1_medicos_repositorio_a1c7cf1638aec75fd807718b45c8a3a18}\index{Dados.Repositorios.MedicosRepositorio@{Dados.Repositorios.MedicosRepositorio}!ObterPorId@{ObterPorId}}
+\index{ObterPorId@{ObterPorId}!Dados.Repositorios.MedicosRepositorio@{Dados.Repositorios.MedicosRepositorio}}
+\doxysubsubsection{\texorpdfstring{ObterPorId()}{ObterPorId()}}
+{\footnotesize\ttfamily \label{class_dados_1_1_repositorios_1_1_medicos_repositorio_a1c7cf1638aec75fd807718b45c8a3a18} 
+\mbox{\hyperlink{class_dados_1_1_entidades_1_1_medico}{Medico}} Dados.\+Repositorios.\+Medicos\+Repositorio.\+Obter\+Por\+Id (\begin{DoxyParamCaption}\item[{int}]{medico\+Id}{}\end{DoxyParamCaption})}
+
+
+
+Obtém um médico pelo ID. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em medico\+Id} & ID do médico a ser obtido.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+O médico correspondente ou {\ttfamily null} se não for encontrado.
+\end{DoxyReturn}
+\Hypertarget{class_dados_1_1_repositorios_1_1_medicos_repositorio_ab59acb066b8ce7e7f204dfbc548fc0c2}\index{Dados.Repositorios.MedicosRepositorio@{Dados.Repositorios.MedicosRepositorio}!Remover@{Remover}}
+\index{Remover@{Remover}!Dados.Repositorios.MedicosRepositorio@{Dados.Repositorios.MedicosRepositorio}}
+\doxysubsubsection{\texorpdfstring{Remover()}{Remover()}}
+{\footnotesize\ttfamily \label{class_dados_1_1_repositorios_1_1_medicos_repositorio_ab59acb066b8ce7e7f204dfbc548fc0c2} 
+bool Dados.\+Repositorios.\+Medicos\+Repositorio.\+Remover (\begin{DoxyParamCaption}\item[{int}]{medico\+Id}{}\end{DoxyParamCaption})}
+
+
+
+Remove um médico do repositório. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em medico\+Id} & ID do médico a ser removido.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} se o médico foi removido, {\ttfamily false} caso não seja encontrado.
+\end{DoxyReturn}
+\texorpdfstring{$<$}{<} Remove o médico da lista.
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/2ano/1sem/\+POO/\+FASE2\+\_\+\+PROJETO/\+Gestao\+Centro\+Saude/\+Dados/\+Repositorios/Medicos\+Repositorio.\+cs\end{DoxyCompactItemize}

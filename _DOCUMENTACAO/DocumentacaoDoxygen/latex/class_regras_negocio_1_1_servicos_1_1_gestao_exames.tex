@@ -1,0 +1,246 @@
+\doxysection{Regras\+Negocio.\+Servicos.\+Gestao\+Exames Class Reference}
+\hypertarget{class_regras_negocio_1_1_servicos_1_1_gestao_exames}{}\label{class_regras_negocio_1_1_servicos_1_1_gestao_exames}\index{RegrasNegocio.Servicos.GestaoExames@{RegrasNegocio.Servicos.GestaoExames}}
+
+
+Classe responsável pela gestão dos exames no sistema.  
+
+
+Inheritance diagram for Regras\+Negocio.\+Servicos.\+Gestao\+Exames\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_regras_negocio_1_1_servicos_1_1_gestao_exames}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_regras_negocio_1_1_servicos_1_1_gestao_exames_a9d9e50b912b5225ccfc123b937f38bf6}\label{class_regras_negocio_1_1_servicos_1_1_gestao_exames_a9d9e50b912b5225ccfc123b937f38bf6} 
+{\bfseries Gestao\+Exames} ()
+\begin{DoxyCompactList}\small\item\em Construtor padrão. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_regras_negocio_1_1_servicos_1_1_gestao_exames_a4fe8d616bde7499ddb37c06fcd7b6342}{Adicionar\+Exame}} (\mbox{\hyperlink{class_objetos_negocio_1_1_classes_light_1_1_exame_light}{Exame\+Light}} exame\+Light, \mbox{\hyperlink{class_objetos_negocio_1_1_classes_light_1_1_medico_light}{Medico\+Light}} medico\+Light)
+\begin{DoxyCompactList}\small\item\em Adiciona um novo exame ao sistema. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_regras_negocio_1_1_servicos_1_1_gestao_exames_a1e6b774d3db29acae12aa9bb9fd13b93}{Eliminar\+Exame}} (int exame\+Id, \mbox{\hyperlink{class_objetos_negocio_1_1_classes_light_1_1_medico_light}{Medico\+Light}} medico\+Light)
+\begin{DoxyCompactList}\small\item\em Elimina um exame existente no sistema. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_regras_negocio_1_1_servicos_1_1_gestao_exames_a254738c5791fc3b7bcf5df445d8b5824}{Existe\+Exame}} (int exame\+Id)
+\begin{DoxyCompactList}\small\item\em Verifica se um exame existe no repositório. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_objetos_negocio_1_1_classes_light_1_1_exame_light}{Exame\+Light}} \mbox{\hyperlink{class_regras_negocio_1_1_servicos_1_1_gestao_exames_a45000a9e5aba7cc239232af7703246f3}{Obter\+Exame}} (int exame\+Id)
+\begin{DoxyCompactList}\small\item\em Obtém um exame pelo seu identificador. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_regras_negocio_1_1_servicos_1_1_gestao_exames_ae549b0c6ac017556a91be377ca424704}{Atualizar\+Resultado\+Do\+Exame}} (int exame\+Id, string novo\+Resultado, \mbox{\hyperlink{class_objetos_negocio_1_1_classes_light_1_1_medico_light}{Medico\+Light}} medico\+Light)
+\begin{DoxyCompactList}\small\item\em Atualiza o resultado de um exame existente. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_regras_negocio_1_1_servicos_1_1_gestao_exames_a7052f114c61f1510865ffb13a23e1a0b}{Atualizar\+Custo\+Do\+Exame}} (int exame\+Id, double novo\+Custo, \mbox{\hyperlink{class_objetos_negocio_1_1_classes_light_1_1_medico_light}{Medico\+Light}} medico\+Light)
+\begin{DoxyCompactList}\small\item\em Atualiza o custo de um exame existente. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_regras_negocio_1_1_servicos_1_1_gestao_exames_a51bb059f77c1ad7ae689323c23a2e915}{Exportar\+Exames\+Para\+Ficheiro}} (string nome\+Ficheiro)
+\begin{DoxyCompactList}\small\item\em Exporta os exames para um ficheiro binário. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_regras_negocio_1_1_servicos_1_1_gestao_exames_a1f7bd3f4474070120b92b616ca3506e5}{Ordenar\+Exames}} (\mbox{\hyperlink{class_objetos_negocio_1_1_classes_light_1_1_medico_light}{Medico\+Light}} medico\+Light)
+\begin{DoxyCompactList}\small\item\em Ordena os exames por custo. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{interface_regras_negocio_1_1_interfaces_1_1_i_gestao_exames}{Regras\+Negocio.\+Interfaces.\+IGestao\+Exames}}}
+
+
+\doxysubsection{Detailed Description}
+Classe responsável pela gestão dos exames no sistema. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_regras_negocio_1_1_servicos_1_1_gestao_exames_a4fe8d616bde7499ddb37c06fcd7b6342}\index{RegrasNegocio.Servicos.GestaoExames@{RegrasNegocio.Servicos.GestaoExames}!AdicionarExame@{AdicionarExame}}
+\index{AdicionarExame@{AdicionarExame}!RegrasNegocio.Servicos.GestaoExames@{RegrasNegocio.Servicos.GestaoExames}}
+\doxysubsubsection{\texorpdfstring{AdicionarExame()}{AdicionarExame()}}
+{\footnotesize\ttfamily \label{class_regras_negocio_1_1_servicos_1_1_gestao_exames_a4fe8d616bde7499ddb37c06fcd7b6342} 
+bool Regras\+Negocio.\+Servicos.\+Gestao\+Exames.\+Adicionar\+Exame (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_objetos_negocio_1_1_classes_light_1_1_exame_light}{Exame\+Light}}}]{exame\+Light}{, }\item[{\mbox{\hyperlink{class_objetos_negocio_1_1_classes_light_1_1_medico_light}{Medico\+Light}}}]{medico\+Light}{}\end{DoxyParamCaption})}
+
+
+
+Adiciona um novo exame ao sistema. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em exame\+Light} & Objeto que contém as informações mínimas de um exame.\\
+\hline
+{\em medico\+Light} & Objeto que representa o médico responsável pelo exame.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna {\ttfamily true} se o exame for adicionado com sucesso, {\ttfamily false} caso contrário.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Argument\+Null\+Exception} & Se o parâmetro for {\ttfamily null}.\\
+\hline
+\end{DoxyExceptions}
+
+
+Implements \mbox{\hyperlink{interface_regras_negocio_1_1_interfaces_1_1_i_gestao_exames_a985f7b67dee9ad443c77e044f6377693}{Regras\+Negocio.\+Interfaces.\+IGestao\+Exames}}.
+
+\Hypertarget{class_regras_negocio_1_1_servicos_1_1_gestao_exames_a7052f114c61f1510865ffb13a23e1a0b}\index{RegrasNegocio.Servicos.GestaoExames@{RegrasNegocio.Servicos.GestaoExames}!AtualizarCustoDoExame@{AtualizarCustoDoExame}}
+\index{AtualizarCustoDoExame@{AtualizarCustoDoExame}!RegrasNegocio.Servicos.GestaoExames@{RegrasNegocio.Servicos.GestaoExames}}
+\doxysubsubsection{\texorpdfstring{AtualizarCustoDoExame()}{AtualizarCustoDoExame()}}
+{\footnotesize\ttfamily \label{class_regras_negocio_1_1_servicos_1_1_gestao_exames_a7052f114c61f1510865ffb13a23e1a0b} 
+bool Regras\+Negocio.\+Servicos.\+Gestao\+Exames.\+Atualizar\+Custo\+Do\+Exame (\begin{DoxyParamCaption}\item[{int}]{exame\+Id}{, }\item[{double}]{novo\+Custo}{, }\item[{\mbox{\hyperlink{class_objetos_negocio_1_1_classes_light_1_1_medico_light}{Medico\+Light}}}]{medico\+Light}{}\end{DoxyParamCaption})}
+
+
+
+Atualiza o custo de um exame existente. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em exame\+Id} & Identificador único do exame.\\
+\hline
+{\em novo\+Custo} & Novo custo a ser associado ao exame.\\
+\hline
+{\em medico\+Light} & Objeto que representa o médico responsável pela atualização do custo.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna {\ttfamily true} se o custo for atualizado com sucesso, {\ttfamily false} caso contrário.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Argument\+Null\+Exception} & Se o exame não existir.\\
+\hline
+\end{DoxyExceptions}
+
+
+Implements \mbox{\hyperlink{interface_regras_negocio_1_1_interfaces_1_1_i_gestao_exames_a5671adfb9d0f6557550a6cae1ec498eb}{Regras\+Negocio.\+Interfaces.\+IGestao\+Exames}}.
+
+\Hypertarget{class_regras_negocio_1_1_servicos_1_1_gestao_exames_ae549b0c6ac017556a91be377ca424704}\index{RegrasNegocio.Servicos.GestaoExames@{RegrasNegocio.Servicos.GestaoExames}!AtualizarResultadoDoExame@{AtualizarResultadoDoExame}}
+\index{AtualizarResultadoDoExame@{AtualizarResultadoDoExame}!RegrasNegocio.Servicos.GestaoExames@{RegrasNegocio.Servicos.GestaoExames}}
+\doxysubsubsection{\texorpdfstring{AtualizarResultadoDoExame()}{AtualizarResultadoDoExame()}}
+{\footnotesize\ttfamily \label{class_regras_negocio_1_1_servicos_1_1_gestao_exames_ae549b0c6ac017556a91be377ca424704} 
+bool Regras\+Negocio.\+Servicos.\+Gestao\+Exames.\+Atualizar\+Resultado\+Do\+Exame (\begin{DoxyParamCaption}\item[{int}]{exame\+Id}{, }\item[{string}]{novo\+Resultado}{, }\item[{\mbox{\hyperlink{class_objetos_negocio_1_1_classes_light_1_1_medico_light}{Medico\+Light}}}]{medico\+Light}{}\end{DoxyParamCaption})}
+
+
+
+Atualiza o resultado de um exame existente. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em exame\+Id} & Identificador único do exame.\\
+\hline
+{\em novo\+Resultado} & Novo resultado a ser associado ao exame.\\
+\hline
+{\em medico\+Light} & Objeto que representa o médico responsável pela atualização do exame.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna {\ttfamily true} se o resultado for atualizado com sucesso, {\ttfamily false} caso contrário.
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Argument\+Null\+Exception} & Se o exame não existir.\\
+\hline
+\end{DoxyExceptions}
+
+
+Implements \mbox{\hyperlink{interface_regras_negocio_1_1_interfaces_1_1_i_gestao_exames_a2541ed6652318bcda25784232f10e723}{Regras\+Negocio.\+Interfaces.\+IGestao\+Exames}}.
+
+\Hypertarget{class_regras_negocio_1_1_servicos_1_1_gestao_exames_a1e6b774d3db29acae12aa9bb9fd13b93}\index{RegrasNegocio.Servicos.GestaoExames@{RegrasNegocio.Servicos.GestaoExames}!EliminarExame@{EliminarExame}}
+\index{EliminarExame@{EliminarExame}!RegrasNegocio.Servicos.GestaoExames@{RegrasNegocio.Servicos.GestaoExames}}
+\doxysubsubsection{\texorpdfstring{EliminarExame()}{EliminarExame()}}
+{\footnotesize\ttfamily \label{class_regras_negocio_1_1_servicos_1_1_gestao_exames_a1e6b774d3db29acae12aa9bb9fd13b93} 
+bool Regras\+Negocio.\+Servicos.\+Gestao\+Exames.\+Eliminar\+Exame (\begin{DoxyParamCaption}\item[{int}]{exame\+Id}{, }\item[{\mbox{\hyperlink{class_objetos_negocio_1_1_classes_light_1_1_medico_light}{Medico\+Light}}}]{medico\+Light}{}\end{DoxyParamCaption})}
+
+
+
+Elimina um exame existente no sistema. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em exame\+Id} & Identificador único do exame a ser eliminado.\\
+\hline
+{\em medico\+Light} & Objeto que representa o médico responsável pela eliminação do exame.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna {\ttfamily true} se o exame for eliminado com sucesso, {\ttfamily false} caso contrário.
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interface_regras_negocio_1_1_interfaces_1_1_i_gestao_exames_aa80e84bd3358b1708e5eb329ff036927}{Regras\+Negocio.\+Interfaces.\+IGestao\+Exames}}.
+
+\Hypertarget{class_regras_negocio_1_1_servicos_1_1_gestao_exames_a254738c5791fc3b7bcf5df445d8b5824}\index{RegrasNegocio.Servicos.GestaoExames@{RegrasNegocio.Servicos.GestaoExames}!ExisteExame@{ExisteExame}}
+\index{ExisteExame@{ExisteExame}!RegrasNegocio.Servicos.GestaoExames@{RegrasNegocio.Servicos.GestaoExames}}
+\doxysubsubsection{\texorpdfstring{ExisteExame()}{ExisteExame()}}
+{\footnotesize\ttfamily \label{class_regras_negocio_1_1_servicos_1_1_gestao_exames_a254738c5791fc3b7bcf5df445d8b5824} 
+bool Regras\+Negocio.\+Servicos.\+Gestao\+Exames.\+Existe\+Exame (\begin{DoxyParamCaption}\item[{int}]{exame\+Id}{}\end{DoxyParamCaption})}
+
+
+
+Verifica se um exame existe no repositório. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em exame\+Id} & Identificador único do exame a ser verificado.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna {\ttfamily true} se o exame existir, {\ttfamily false} caso contrário.
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interface_regras_negocio_1_1_interfaces_1_1_i_gestao_exames_ad2dd1c9aa01492ef2fff360f7ebf2b6e}{Regras\+Negocio.\+Interfaces.\+IGestao\+Exames}}.
+
+\Hypertarget{class_regras_negocio_1_1_servicos_1_1_gestao_exames_a51bb059f77c1ad7ae689323c23a2e915}\index{RegrasNegocio.Servicos.GestaoExames@{RegrasNegocio.Servicos.GestaoExames}!ExportarExamesParaFicheiro@{ExportarExamesParaFicheiro}}
+\index{ExportarExamesParaFicheiro@{ExportarExamesParaFicheiro}!RegrasNegocio.Servicos.GestaoExames@{RegrasNegocio.Servicos.GestaoExames}}
+\doxysubsubsection{\texorpdfstring{ExportarExamesParaFicheiro()}{ExportarExamesParaFicheiro()}}
+{\footnotesize\ttfamily \label{class_regras_negocio_1_1_servicos_1_1_gestao_exames_a51bb059f77c1ad7ae689323c23a2e915} 
+bool Regras\+Negocio.\+Servicos.\+Gestao\+Exames.\+Exportar\+Exames\+Para\+Ficheiro (\begin{DoxyParamCaption}\item[{string}]{nome\+Ficheiro}{}\end{DoxyParamCaption})}
+
+
+
+Exporta os exames para um ficheiro binário. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome\+Ficheiro} & Nome do ficheiro para o qual os dados serão exportados.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna {\ttfamily true} se a exportação for bem-\/sucedida, ou {\ttfamily false} em caso de erro.
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interface_regras_negocio_1_1_interfaces_1_1_i_gestao_exames_aa9fce1b5e16802df5da28c887bec09a8}{Regras\+Negocio.\+Interfaces.\+IGestao\+Exames}}.
+
+\Hypertarget{class_regras_negocio_1_1_servicos_1_1_gestao_exames_a45000a9e5aba7cc239232af7703246f3}\index{RegrasNegocio.Servicos.GestaoExames@{RegrasNegocio.Servicos.GestaoExames}!ObterExame@{ObterExame}}
+\index{ObterExame@{ObterExame}!RegrasNegocio.Servicos.GestaoExames@{RegrasNegocio.Servicos.GestaoExames}}
+\doxysubsubsection{\texorpdfstring{ObterExame()}{ObterExame()}}
+{\footnotesize\ttfamily \label{class_regras_negocio_1_1_servicos_1_1_gestao_exames_a45000a9e5aba7cc239232af7703246f3} 
+\mbox{\hyperlink{class_objetos_negocio_1_1_classes_light_1_1_exame_light}{Exame\+Light}} Regras\+Negocio.\+Servicos.\+Gestao\+Exames.\+Obter\+Exame (\begin{DoxyParamCaption}\item[{int}]{exame\+Id}{}\end{DoxyParamCaption})}
+
+
+
+Obtém um exame pelo seu identificador. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em exame\+Id} & Identificador único do exame a ser obtido.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Um objeto do tipo {\ttfamily Exame\+Light} representando o exame, ou {\ttfamily null} se não for encontrado.
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interface_regras_negocio_1_1_interfaces_1_1_i_gestao_exames_a62ec9ebd68d663318ea36a375658c3f2}{Regras\+Negocio.\+Interfaces.\+IGestao\+Exames}}.
+
+\Hypertarget{class_regras_negocio_1_1_servicos_1_1_gestao_exames_a1f7bd3f4474070120b92b616ca3506e5}\index{RegrasNegocio.Servicos.GestaoExames@{RegrasNegocio.Servicos.GestaoExames}!OrdenarExames@{OrdenarExames}}
+\index{OrdenarExames@{OrdenarExames}!RegrasNegocio.Servicos.GestaoExames@{RegrasNegocio.Servicos.GestaoExames}}
+\doxysubsubsection{\texorpdfstring{OrdenarExames()}{OrdenarExames()}}
+{\footnotesize\ttfamily \label{class_regras_negocio_1_1_servicos_1_1_gestao_exames_a1f7bd3f4474070120b92b616ca3506e5} 
+bool Regras\+Negocio.\+Servicos.\+Gestao\+Exames.\+Ordenar\+Exames (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_objetos_negocio_1_1_classes_light_1_1_medico_light}{Medico\+Light}}}]{medico\+Light}{}\end{DoxyParamCaption})}
+
+
+
+Ordena os exames por custo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em medico\+Light} & Objeto que representa o médico responsável pela ordenação dos exames.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna {\ttfamily true} se a ordenação for bem-\/sucedida, {\ttfamily false} caso contrário.
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/2ano/1sem/\+POO/\+FASE2\+\_\+\+PROJETO/\+Gestao\+Centro\+Saude/\+Regras\+Negocio/\+Servicos/Gestao\+Exames.\+cs\end{DoxyCompactItemize}

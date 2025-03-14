@@ -1,0 +1,6 @@
+D:\2ano\1sem\POO\FASE2_PROJETO\GestaoCentroSaude\TrataProblemas\bin\Debug\TrataProblemas.dll
+D:\2ano\1sem\POO\FASE2_PROJETO\GestaoCentroSaude\TrataProblemas\bin\Debug\TrataProblemas.pdb
+D:\2ano\1sem\POO\FASE2_PROJETO\GestaoCentroSaude\TrataProblemas\obj\Debug\TrataProblemas.csproj.AssemblyReference.cache
+D:\2ano\1sem\POO\FASE2_PROJETO\GestaoCentroSaude\TrataProblemas\obj\Debug\TrataProblemas.csproj.CoreCompileInputs.cache
+D:\2ano\1sem\POO\FASE2_PROJETO\GestaoCentroSaude\TrataProblemas\obj\Debug\TrataProblemas.dll
+D:\2ano\1sem\POO\FASE2_PROJETO\GestaoCentroSaude\TrataProblemas\obj\Debug\TrataProblemas.pdb

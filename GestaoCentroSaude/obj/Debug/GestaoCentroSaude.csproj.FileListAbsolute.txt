@@ -1,0 +1,16 @@
+D:\2ano\1sem\POO\FASE2_PROJETO\GestaoCentroSaude\GestaoCentroSaude\bin\Debug\GestaoCentroSaude.exe.config
+D:\2ano\1sem\POO\FASE2_PROJETO\GestaoCentroSaude\GestaoCentroSaude\bin\Debug\GestaoCentroSaude.exe
+D:\2ano\1sem\POO\FASE2_PROJETO\GestaoCentroSaude\GestaoCentroSaude\bin\Debug\GestaoCentroSaude.pdb
+D:\2ano\1sem\POO\FASE2_PROJETO\GestaoCentroSaude\GestaoCentroSaude\bin\Debug\ObjetosNegocio.dll
+D:\2ano\1sem\POO\FASE2_PROJETO\GestaoCentroSaude\GestaoCentroSaude\bin\Debug\RegrasNegocio.dll
+D:\2ano\1sem\POO\FASE2_PROJETO\GestaoCentroSaude\GestaoCentroSaude\bin\Debug\Dados.dll
+D:\2ano\1sem\POO\FASE2_PROJETO\GestaoCentroSaude\GestaoCentroSaude\bin\Debug\ObjetosNegocio.pdb
+D:\2ano\1sem\POO\FASE2_PROJETO\GestaoCentroSaude\GestaoCentroSaude\bin\Debug\RegrasNegocio.pdb
+D:\2ano\1sem\POO\FASE2_PROJETO\GestaoCentroSaude\GestaoCentroSaude\bin\Debug\Dados.pdb
+D:\2ano\1sem\POO\FASE2_PROJETO\GestaoCentroSaude\GestaoCentroSaude\obj\Debug\GestaoCentroSaude.csproj.AssemblyReference.cache
+D:\2ano\1sem\POO\FASE2_PROJETO\GestaoCentroSaude\GestaoCentroSaude\obj\Debug\GestaoCentroSaude.csproj.CoreCompileInputs.cache
+D:\2ano\1sem\POO\FASE2_PROJETO\GestaoCentroSaude\GestaoCentroSaude\obj\Debug\GestaoCe.B67827D6.Up2Date
+D:\2ano\1sem\POO\FASE2_PROJETO\GestaoCentroSaude\GestaoCentroSaude\obj\Debug\GestaoCentroSaude.exe
+D:\2ano\1sem\POO\FASE2_PROJETO\GestaoCentroSaude\GestaoCentroSaude\obj\Debug\GestaoCentroSaude.pdb
+D:\2ano\1sem\POO\FASE2_PROJETO\GestaoCentroSaude\GestaoCentroSaude\bin\Debug\TrataProblemas.dll
+D:\2ano\1sem\POO\FASE2_PROJETO\GestaoCentroSaude\GestaoCentroSaude\bin\Debug\TrataProblemas.pdb

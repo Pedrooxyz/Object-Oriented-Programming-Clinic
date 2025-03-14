@@ -1,0 +1,160 @@
+\doxysection{Dados.\+Entidades.\+Diagnostico Class Reference}
+\hypertarget{class_dados_1_1_entidades_1_1_diagnostico}{}\label{class_dados_1_1_entidades_1_1_diagnostico}\index{Dados.Entidades.Diagnostico@{Dados.Entidades.Diagnostico}}
+
+
+Representa um diagnóstico médico associado a uma consulta.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_dados_1_1_entidades_1_1_diagnostico_ae00ae3b694f7a711f45a8df0146a440e}\label{class_dados_1_1_entidades_1_1_diagnostico_ae00ae3b694f7a711f45a8df0146a440e} 
+{\bfseries Diagnostico} ()
+\begin{DoxyCompactList}\small\item\em Construtor padrão para criar um diagnóstico vazio. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_dados_1_1_entidades_1_1_diagnostico_a9f50c6ecbcef480be4010c71cfbab8f1}{Diagnostico}} (int id, Date\+Time data\+Diagnostico, int consulta\+Id)
+\begin{DoxyCompactList}\small\item\em Construtor para criar um diagnóstico com dados básicos. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_dados_1_1_entidades_1_1_diagnostico_ab76ca54437c8154b8bc5fd230075fdfd}{Adicionar\+Texto\+Descricao}} (string texto)
+\begin{DoxyCompactList}\small\item\em Adiciona texto à descrição do diagnóstico. \end{DoxyCompactList}\item 
+override bool \mbox{\hyperlink{class_dados_1_1_entidades_1_1_diagnostico_aad2acc35705f789055ba4d6aae5edd45}{Equals}} (object obj)
+\begin{DoxyCompactList}\small\item\em Verifica se a instância atual é igual a um objeto especificado. \end{DoxyCompactList}\item 
+override int \mbox{\hyperlink{class_dados_1_1_entidades_1_1_diagnostico_a4186454c3bea1163949da4cd1d230595}{Get\+Hash\+Code}} ()
+\begin{DoxyCompactList}\small\item\em Gera o código hash da instância atual da classe \doxylink{class_dados_1_1_entidades_1_1_diagnostico}{Diagnostico}. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_dados_1_1_entidades_1_1_diagnostico_aa3d72824f45127d6e1d01eeb16d796de}{Associar\+Consulta}} (int consulta\+Id)
+\begin{DoxyCompactList}\small\item\em Associa um diagnóstico a uma consulta específica. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_dados_1_1_entidades_1_1_diagnostico_a79671774c4c4fc00cfd6ec14c31121cc}{Exportar}} (string nome\+Ficheiro)
+\begin{DoxyCompactList}\small\item\em Exporta os dados da classe para um ficheiro de texto. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_dados_1_1_entidades_1_1_diagnostico_a29038709768b4684ca5b0c3bab8b572a}\label{class_dados_1_1_entidades_1_1_diagnostico_a29038709768b4684ca5b0c3bab8b572a} 
+int {\bfseries Id}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtém o identificador único do diagnóstico. \end{DoxyCompactList}\item 
+\Hypertarget{class_dados_1_1_entidades_1_1_diagnostico_a4620548dde8f8afbaf641bd682640ab7}\label{class_dados_1_1_entidades_1_1_diagnostico_a4620548dde8f8afbaf641bd682640ab7} 
+string {\bfseries Descricao}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtém ou define a descrição do diagnóstico. \end{DoxyCompactList}\item 
+\Hypertarget{class_dados_1_1_entidades_1_1_diagnostico_a3cb62c9abac55f674302489eb625a364}\label{class_dados_1_1_entidades_1_1_diagnostico_a3cb62c9abac55f674302489eb625a364} 
+Date\+Time {\bfseries Data\+Diagnostico}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtém a data do diagnóstico. \end{DoxyCompactList}\item 
+\Hypertarget{class_dados_1_1_entidades_1_1_diagnostico_a0829fa875e63d00276cec6e0be1815b6}\label{class_dados_1_1_entidades_1_1_diagnostico_a0829fa875e63d00276cec6e0be1815b6} 
+int {\bfseries Consulta\+Id}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtém ou define o identificador da consulta associada ao diagnóstico. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Representa um diagnóstico médico associado a uma consulta. 
+
+A classe \doxylink{class_dados_1_1_entidades_1_1_diagnostico}{Diagnostico} é utilizada para armazenar informações relacionadas a um diagnóstico médico, incluindo a descrição, data e a consulta associada. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_dados_1_1_entidades_1_1_diagnostico_a9f50c6ecbcef480be4010c71cfbab8f1}\index{Dados.Entidades.Diagnostico@{Dados.Entidades.Diagnostico}!Diagnostico@{Diagnostico}}
+\index{Diagnostico@{Diagnostico}!Dados.Entidades.Diagnostico@{Dados.Entidades.Diagnostico}}
+\doxysubsubsection{\texorpdfstring{Diagnostico()}{Diagnostico()}}
+{\footnotesize\ttfamily \label{class_dados_1_1_entidades_1_1_diagnostico_a9f50c6ecbcef480be4010c71cfbab8f1} 
+Dados.\+Entidades.\+Diagnostico.\+Diagnostico (\begin{DoxyParamCaption}\item[{int}]{id}{, }\item[{Date\+Time}]{data\+Diagnostico}{, }\item[{int}]{consulta\+Id}{}\end{DoxyParamCaption})}
+
+
+
+Construtor para criar um diagnóstico com dados básicos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & Identificador único do diagnóstico.\\
+\hline
+{\em data\+Diagnostico} & Data em que o diagnóstico foi realizado.\\
+\hline
+{\em consulta\+Id} & Identificador da consulta associada ao diagnóstico.\\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_dados_1_1_entidades_1_1_diagnostico_ab76ca54437c8154b8bc5fd230075fdfd}\index{Dados.Entidades.Diagnostico@{Dados.Entidades.Diagnostico}!AdicionarTextoDescricao@{AdicionarTextoDescricao}}
+\index{AdicionarTextoDescricao@{AdicionarTextoDescricao}!Dados.Entidades.Diagnostico@{Dados.Entidades.Diagnostico}}
+\doxysubsubsection{\texorpdfstring{AdicionarTextoDescricao()}{AdicionarTextoDescricao()}}
+{\footnotesize\ttfamily \label{class_dados_1_1_entidades_1_1_diagnostico_ab76ca54437c8154b8bc5fd230075fdfd} 
+bool Dados.\+Entidades.\+Diagnostico.\+Adicionar\+Texto\+Descricao (\begin{DoxyParamCaption}\item[{string}]{texto}{}\end{DoxyParamCaption})}
+
+
+
+Adiciona texto à descrição do diagnóstico. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em texto} & Texto a ser adicionado à descrição do diagnóstico.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna {\ttfamily true} se o texto for adicionado com sucesso; {\ttfamily false} caso contrário.
+\end{DoxyReturn}
+\Hypertarget{class_dados_1_1_entidades_1_1_diagnostico_aa3d72824f45127d6e1d01eeb16d796de}\index{Dados.Entidades.Diagnostico@{Dados.Entidades.Diagnostico}!AssociarConsulta@{AssociarConsulta}}
+\index{AssociarConsulta@{AssociarConsulta}!Dados.Entidades.Diagnostico@{Dados.Entidades.Diagnostico}}
+\doxysubsubsection{\texorpdfstring{AssociarConsulta()}{AssociarConsulta()}}
+{\footnotesize\ttfamily \label{class_dados_1_1_entidades_1_1_diagnostico_aa3d72824f45127d6e1d01eeb16d796de} 
+bool Dados.\+Entidades.\+Diagnostico.\+Associar\+Consulta (\begin{DoxyParamCaption}\item[{int}]{consulta\+Id}{}\end{DoxyParamCaption})}
+
+
+
+Associa um diagnóstico a uma consulta específica. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em consulta\+Id} & Identificador da consulta a ser associada ao diagnóstico.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna {\ttfamily true} se a associação for bem-\/sucedida; {\ttfamily false} caso contrário.
+\end{DoxyReturn}
+\Hypertarget{class_dados_1_1_entidades_1_1_diagnostico_aad2acc35705f789055ba4d6aae5edd45}\index{Dados.Entidades.Diagnostico@{Dados.Entidades.Diagnostico}!Equals@{Equals}}
+\index{Equals@{Equals}!Dados.Entidades.Diagnostico@{Dados.Entidades.Diagnostico}}
+\doxysubsubsection{\texorpdfstring{Equals()}{Equals()}}
+{\footnotesize\ttfamily \label{class_dados_1_1_entidades_1_1_diagnostico_aad2acc35705f789055ba4d6aae5edd45} 
+override bool Dados.\+Entidades.\+Diagnostico.\+Equals (\begin{DoxyParamCaption}\item[{object}]{obj}{}\end{DoxyParamCaption})}
+
+
+
+Verifica se a instância atual é igual a um objeto especificado. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & Objeto a ser comparado com a instância atual.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna {\ttfamily true} se o objeto especificado for igual à instância atual; caso contrário, retorna {\ttfamily false}.
+\end{DoxyReturn}
+\Hypertarget{class_dados_1_1_entidades_1_1_diagnostico_a79671774c4c4fc00cfd6ec14c31121cc}\index{Dados.Entidades.Diagnostico@{Dados.Entidades.Diagnostico}!Exportar@{Exportar}}
+\index{Exportar@{Exportar}!Dados.Entidades.Diagnostico@{Dados.Entidades.Diagnostico}}
+\doxysubsubsection{\texorpdfstring{Exportar()}{Exportar()}}
+{\footnotesize\ttfamily \label{class_dados_1_1_entidades_1_1_diagnostico_a79671774c4c4fc00cfd6ec14c31121cc} 
+bool Dados.\+Entidades.\+Diagnostico.\+Exportar (\begin{DoxyParamCaption}\item[{string}]{nome\+Ficheiro}{}\end{DoxyParamCaption})}
+
+
+
+Exporta os dados da classe para um ficheiro de texto. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome\+Ficheiro} & Nome do ficheiro para o qual os dados serão exportados.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna {\ttfamily true} se a exportação for bem-\/sucedida; ou {\ttfamily false} em caso de erro.
+\end{DoxyReturn}
+\Hypertarget{class_dados_1_1_entidades_1_1_diagnostico_a4186454c3bea1163949da4cd1d230595}\index{Dados.Entidades.Diagnostico@{Dados.Entidades.Diagnostico}!GetHashCode@{GetHashCode}}
+\index{GetHashCode@{GetHashCode}!Dados.Entidades.Diagnostico@{Dados.Entidades.Diagnostico}}
+\doxysubsubsection{\texorpdfstring{GetHashCode()}{GetHashCode()}}
+{\footnotesize\ttfamily \label{class_dados_1_1_entidades_1_1_diagnostico_a4186454c3bea1163949da4cd1d230595} 
+override int Dados.\+Entidades.\+Diagnostico.\+Get\+Hash\+Code (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Gera o código hash da instância atual da classe \doxylink{class_dados_1_1_entidades_1_1_diagnostico}{Diagnostico}. 
+
+\begin{DoxyReturn}{Returns}
+O código hash calculado com base na descrição e na data do diagnóstico.
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/2ano/1sem/\+POO/\+FASE2\+\_\+\+PROJETO/\+Gestao\+Centro\+Saude/\+Dados/\+Entidades/Diagnostico.\+cs\end{DoxyCompactItemize}

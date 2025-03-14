@@ -1,0 +1,103 @@
+\doxysection{Dados.\+Interfaces.\+IRepositorio\texorpdfstring{$<$}{<} T \texorpdfstring{$>$}{>} Interface Template Reference}
+\hypertarget{interface_dados_1_1_interfaces_1_1_i_repositorio}{}\label{interface_dados_1_1_interfaces_1_1_i_repositorio}\index{Dados.Interfaces.IRepositorio$<$ T $>$@{Dados.Interfaces.IRepositorio$<$ T $>$}}
+
+
+Interface para repositórios genéricos que gerem entidades do tipo T.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{interface_dados_1_1_interfaces_1_1_i_repositorio_a4e2a7f4d249731ac1c4ec141cde0b372}{Adicionar}} (T item)
+\begin{DoxyCompactList}\small\item\em Adiciona um item ao repositório. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{interface_dados_1_1_interfaces_1_1_i_repositorio_aaa9b237c49c14d1e33f6c13bad05c963}{Remover}} (int id)
+\begin{DoxyCompactList}\small\item\em Remove um item do repositório com base no seu ID. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{interface_dados_1_1_interfaces_1_1_i_repositorio_a16fa104709a56a8d67a1f9e67c902c47}{Existe}} (int id)
+\begin{DoxyCompactList}\small\item\em Verifica se um item existe no repositório com base no seu ID. \end{DoxyCompactList}\item 
+T \mbox{\hyperlink{interface_dados_1_1_interfaces_1_1_i_repositorio_a58885b2270e470f5dda6ff03ca63d992}{Obter\+Por\+Id}} (int id)
+\begin{DoxyCompactList}\small\item\em Obtém um item do repositório com base no seu ID. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Interface para repositórios genéricos que gerem entidades do tipo T. 
+
+A interface \doxylink{interface_dados_1_1_interfaces_1_1_i_repositorio}{IRepositorio} define operações básicas para a gestão de entidades do tipo T, como adicionar, remover, verificar existência e obter um elemento específico pelo seu identificador. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{interface_dados_1_1_interfaces_1_1_i_repositorio_a4e2a7f4d249731ac1c4ec141cde0b372}\index{Dados.Interfaces.IRepositorio$<$ T $>$@{Dados.Interfaces.IRepositorio$<$ T $>$}!Adicionar@{Adicionar}}
+\index{Adicionar@{Adicionar}!Dados.Interfaces.IRepositorio$<$ T $>$@{Dados.Interfaces.IRepositorio$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Adicionar()}{Adicionar()}}
+{\footnotesize\ttfamily \label{interface_dados_1_1_interfaces_1_1_i_repositorio_a4e2a7f4d249731ac1c4ec141cde0b372} 
+bool \mbox{\hyperlink{interface_dados_1_1_interfaces_1_1_i_repositorio}{Dados.\+Interfaces.\+IRepositorio}}$<$ T $>$.Adicionar (\begin{DoxyParamCaption}\item[{T}]{item}{}\end{DoxyParamCaption})}
+
+
+
+Adiciona um item ao repositório. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em item} & O item a ser adicionado ao repositório.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna {\ttfamily true} se o item for adicionado com sucesso, caso contrário retorna {\ttfamily false}.
+\end{DoxyReturn}
+\Hypertarget{interface_dados_1_1_interfaces_1_1_i_repositorio_a16fa104709a56a8d67a1f9e67c902c47}\index{Dados.Interfaces.IRepositorio$<$ T $>$@{Dados.Interfaces.IRepositorio$<$ T $>$}!Existe@{Existe}}
+\index{Existe@{Existe}!Dados.Interfaces.IRepositorio$<$ T $>$@{Dados.Interfaces.IRepositorio$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Existe()}{Existe()}}
+{\footnotesize\ttfamily \label{interface_dados_1_1_interfaces_1_1_i_repositorio_a16fa104709a56a8d67a1f9e67c902c47} 
+bool \mbox{\hyperlink{interface_dados_1_1_interfaces_1_1_i_repositorio}{Dados.\+Interfaces.\+IRepositorio}}$<$ T $>$.Existe (\begin{DoxyParamCaption}\item[{int}]{id}{}\end{DoxyParamCaption})}
+
+
+
+Verifica se um item existe no repositório com base no seu ID. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & O identificador único do item a ser verificado.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna {\ttfamily true} se o item existir no repositório, caso contrário retorna {\ttfamily false}.
+\end{DoxyReturn}
+\Hypertarget{interface_dados_1_1_interfaces_1_1_i_repositorio_a58885b2270e470f5dda6ff03ca63d992}\index{Dados.Interfaces.IRepositorio$<$ T $>$@{Dados.Interfaces.IRepositorio$<$ T $>$}!ObterPorId@{ObterPorId}}
+\index{ObterPorId@{ObterPorId}!Dados.Interfaces.IRepositorio$<$ T $>$@{Dados.Interfaces.IRepositorio$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{ObterPorId()}{ObterPorId()}}
+{\footnotesize\ttfamily \label{interface_dados_1_1_interfaces_1_1_i_repositorio_a58885b2270e470f5dda6ff03ca63d992} 
+T \mbox{\hyperlink{interface_dados_1_1_interfaces_1_1_i_repositorio}{Dados.\+Interfaces.\+IRepositorio}}$<$ T $>$.Obter\+Por\+Id (\begin{DoxyParamCaption}\item[{int}]{id}{}\end{DoxyParamCaption})}
+
+
+
+Obtém um item do repositório com base no seu ID. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & O identificador único do item a ser obtido.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna o item com o ID especificado, ou {\ttfamily null} se o item não for encontrado.
+\end{DoxyReturn}
+\Hypertarget{interface_dados_1_1_interfaces_1_1_i_repositorio_aaa9b237c49c14d1e33f6c13bad05c963}\index{Dados.Interfaces.IRepositorio$<$ T $>$@{Dados.Interfaces.IRepositorio$<$ T $>$}!Remover@{Remover}}
+\index{Remover@{Remover}!Dados.Interfaces.IRepositorio$<$ T $>$@{Dados.Interfaces.IRepositorio$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Remover()}{Remover()}}
+{\footnotesize\ttfamily \label{interface_dados_1_1_interfaces_1_1_i_repositorio_aaa9b237c49c14d1e33f6c13bad05c963} 
+bool \mbox{\hyperlink{interface_dados_1_1_interfaces_1_1_i_repositorio}{Dados.\+Interfaces.\+IRepositorio}}$<$ T $>$.Remover (\begin{DoxyParamCaption}\item[{int}]{id}{}\end{DoxyParamCaption})}
+
+
+
+Remove um item do repositório com base no seu ID. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & O identificador único do item a ser removido.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna {\ttfamily true} se o item for removido com sucesso, caso contrário retorna {\ttfamily false}.
+\end{DoxyReturn}
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/2ano/1sem/\+POO/\+FASE2\+\_\+\+PROJETO/\+Gestao\+Centro\+Saude/\+Dados/\+Interfaces/Interface\+Repositorios.\+cs\end{DoxyCompactItemize}

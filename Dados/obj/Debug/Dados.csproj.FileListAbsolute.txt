@@ -1,0 +1,11 @@
+D:\2ano\1sem\POO\FASE2_PROJETO\GestaoCentroSaude\Dados\bin\Debug\Dados.dll
+D:\2ano\1sem\POO\FASE2_PROJETO\GestaoCentroSaude\Dados\bin\Debug\Dados.pdb
+D:\2ano\1sem\POO\FASE2_PROJETO\GestaoCentroSaude\Dados\bin\Debug\ObjetosNegocio.dll
+D:\2ano\1sem\POO\FASE2_PROJETO\GestaoCentroSaude\Dados\bin\Debug\ObjetosNegocio.pdb
+D:\2ano\1sem\POO\FASE2_PROJETO\GestaoCentroSaude\Dados\obj\Debug\Dados.csproj.AssemblyReference.cache
+D:\2ano\1sem\POO\FASE2_PROJETO\GestaoCentroSaude\Dados\obj\Debug\Dados.csproj.CoreCompileInputs.cache
+D:\2ano\1sem\POO\FASE2_PROJETO\GestaoCentroSaude\Dados\obj\Debug\Dados.csproj.Up2Date
+D:\2ano\1sem\POO\FASE2_PROJETO\GestaoCentroSaude\Dados\obj\Debug\Dados.dll
+D:\2ano\1sem\POO\FASE2_PROJETO\GestaoCentroSaude\Dados\obj\Debug\Dados.pdb
+D:\2ano\1sem\POO\FASE2_PROJETO\GestaoCentroSaude\Dados\bin\Debug\TrataProblemas.dll
+D:\2ano\1sem\POO\FASE2_PROJETO\GestaoCentroSaude\Dados\bin\Debug\TrataProblemas.pdb

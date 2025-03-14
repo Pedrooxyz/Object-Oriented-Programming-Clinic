@@ -1,0 +1,213 @@
+\doxysection{Dados.\+Repositorios.\+Pacientes\+Repositorio Class Reference}
+\hypertarget{class_dados_1_1_repositorios_1_1_pacientes_repositorio}{}\label{class_dados_1_1_repositorios_1_1_pacientes_repositorio}\index{Dados.Repositorios.PacientesRepositorio@{Dados.Repositorios.PacientesRepositorio}}
+
+
+Classe responsável pela gestão de pacientes num repositório.  
+
+
+Inheritance diagram for Dados.\+Repositorios.\+Pacientes\+Repositorio\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_dados_1_1_repositorios_1_1_pacientes_repositorio}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_dados_1_1_repositorios_1_1_pacientes_repositorio_a2838d899665bdb537a3a057632afca5e}{Pacientes\+Repositorio}} ()
+\begin{DoxyCompactList}\small\item\em Construtor que inicializa o repositório com uma lista de pacientes vazia e atribui um ID único. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_dados_1_1_repositorios_1_1_pacientes_repositorio_aab7a1a4def16a761d52f8133b2e89b00}{Adicionar}} (\mbox{\hyperlink{class_dados_1_1_entidades_1_1_paciente}{Paciente}} paciente)
+\begin{DoxyCompactList}\small\item\em Adiciona um paciente ao repositório. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_dados_1_1_repositorios_1_1_pacientes_repositorio_a0fc4436b832d90e70e87128e121c6da2}{Remover}} (int paciente\+Id)
+\begin{DoxyCompactList}\small\item\em Remove um paciente do repositório. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_dados_1_1_repositorios_1_1_pacientes_repositorio_afc8576203579253512259e76f0bdd37a}{Existe}} (int paciente\+Id)
+\begin{DoxyCompactList}\small\item\em Verifica a existência de um paciente no repositório. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_dados_1_1_entidades_1_1_paciente}{Paciente}} \mbox{\hyperlink{class_dados_1_1_repositorios_1_1_pacientes_repositorio_a17edcc4f01c9e39097824838030ff985}{Obter\+Por\+Id}} (int paciente\+Id)
+\begin{DoxyCompactList}\small\item\em Obtém um paciente pelo ID. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_dados_1_1_repositorios_1_1_pacientes_repositorio_aeaec4545faa72713452a2ee8b0139143}{Adicionar\+Light}} (\mbox{\hyperlink{class_objetos_negocio_1_1_classes_light_1_1_paciente_light}{Paciente\+Light}} paciente\+Light)
+\begin{DoxyCompactList}\small\item\em Adiciona um paciente utilizando um objeto do tipo {\ttfamily Paciente\+Light}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_objetos_negocio_1_1_classes_light_1_1_paciente_light}{Paciente\+Light}} \mbox{\hyperlink{class_dados_1_1_repositorios_1_1_pacientes_repositorio_a32fb6010cb8a3ddcce244bfa745873cc}{Obter\+Paciente\+Light}} (int paciente\+Id)
+\begin{DoxyCompactList}\small\item\em Obtém um objeto {\ttfamily Paciente\+Light} com informações resumidas de um paciente. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_dados_1_1_repositorios_1_1_pacientes_repositorio_ac323c53dae4892901a39ab00a784bd85}{Obter\+Consultas\+Id\+Paciente}} (int paciente\+Id)
+\begin{DoxyCompactList}\small\item\em Obtém o ID do repositório de consultas associado a um paciente. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_dados_1_1_repositorios_1_1_pacientes_repositorio_ac6d51b36a9b70e32a882ec49ddd80652}{Exportar\+Pacientes}} (string nome\+Ficheiro)
+\begin{DoxyCompactList}\small\item\em Exporta todas os pacientes para um ficheiro binário. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{interface_dados_1_1_interfaces_1_1_i_repositorio}{Dados.\+Interfaces.\+IRepositorio$<$ Paciente $>$}}}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{interface_dados_1_1_interfaces_1_1_i_repositorio_a4e2a7f4d249731ac1c4ec141cde0b372}{Adicionar}} (T item)
+\begin{DoxyCompactList}\small\item\em Adiciona um item ao repositório. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{interface_dados_1_1_interfaces_1_1_i_repositorio_aaa9b237c49c14d1e33f6c13bad05c963}{Remover}} (int id)
+\begin{DoxyCompactList}\small\item\em Remove um item do repositório com base no seu ID. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{interface_dados_1_1_interfaces_1_1_i_repositorio_a16fa104709a56a8d67a1f9e67c902c47}{Existe}} (int id)
+\begin{DoxyCompactList}\small\item\em Verifica se um item existe no repositório com base no seu ID. \end{DoxyCompactList}\item 
+T \mbox{\hyperlink{interface_dados_1_1_interfaces_1_1_i_repositorio_a58885b2270e470f5dda6ff03ca63d992}{Obter\+Por\+Id}} (int id)
+\begin{DoxyCompactList}\small\item\em Obtém um item do repositório com base no seu ID. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Classe responsável pela gestão de pacientes num repositório. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_dados_1_1_repositorios_1_1_pacientes_repositorio_a2838d899665bdb537a3a057632afca5e}\index{Dados.Repositorios.PacientesRepositorio@{Dados.Repositorios.PacientesRepositorio}!PacientesRepositorio@{PacientesRepositorio}}
+\index{PacientesRepositorio@{PacientesRepositorio}!Dados.Repositorios.PacientesRepositorio@{Dados.Repositorios.PacientesRepositorio}}
+\doxysubsubsection{\texorpdfstring{PacientesRepositorio()}{PacientesRepositorio()}}
+{\footnotesize\ttfamily \label{class_dados_1_1_repositorios_1_1_pacientes_repositorio_a2838d899665bdb537a3a057632afca5e} 
+Dados.\+Repositorios.\+Pacientes\+Repositorio.\+Pacientes\+Repositorio (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Construtor que inicializa o repositório com uma lista de pacientes vazia e atribui um ID único. 
+
+Este construtor inicializa o repositório com um ID único gerado automaticamente e com uma lista de pacientes vazia. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_dados_1_1_repositorios_1_1_pacientes_repositorio_aab7a1a4def16a761d52f8133b2e89b00}\index{Dados.Repositorios.PacientesRepositorio@{Dados.Repositorios.PacientesRepositorio}!Adicionar@{Adicionar}}
+\index{Adicionar@{Adicionar}!Dados.Repositorios.PacientesRepositorio@{Dados.Repositorios.PacientesRepositorio}}
+\doxysubsubsection{\texorpdfstring{Adicionar()}{Adicionar()}}
+{\footnotesize\ttfamily \label{class_dados_1_1_repositorios_1_1_pacientes_repositorio_aab7a1a4def16a761d52f8133b2e89b00} 
+bool Dados.\+Repositorios.\+Pacientes\+Repositorio.\+Adicionar (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_dados_1_1_entidades_1_1_paciente}{Paciente}}}]{paciente}{}\end{DoxyParamCaption})}
+
+
+
+Adiciona um paciente ao repositório. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em paciente} & Objeto do tipo {\ttfamily Paciente} a ser adicionado.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna {\ttfamily true} se o paciente for adicionado com sucesso, caso contrário, retorna {\ttfamily false}.
+\end{DoxyReturn}
+\Hypertarget{class_dados_1_1_repositorios_1_1_pacientes_repositorio_aeaec4545faa72713452a2ee8b0139143}\index{Dados.Repositorios.PacientesRepositorio@{Dados.Repositorios.PacientesRepositorio}!AdicionarLight@{AdicionarLight}}
+\index{AdicionarLight@{AdicionarLight}!Dados.Repositorios.PacientesRepositorio@{Dados.Repositorios.PacientesRepositorio}}
+\doxysubsubsection{\texorpdfstring{AdicionarLight()}{AdicionarLight()}}
+{\footnotesize\ttfamily \label{class_dados_1_1_repositorios_1_1_pacientes_repositorio_aeaec4545faa72713452a2ee8b0139143} 
+bool Dados.\+Repositorios.\+Pacientes\+Repositorio.\+Adicionar\+Light (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_objetos_negocio_1_1_classes_light_1_1_paciente_light}{Paciente\+Light}}}]{paciente\+Light}{}\end{DoxyParamCaption})}
+
+
+
+Adiciona um paciente utilizando um objeto do tipo {\ttfamily Paciente\+Light}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em paciente\+Light} & Objeto do tipo {\ttfamily Paciente\+Light} com informações do paciente.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna {\ttfamily true} se o paciente for adicionado com sucesso, caso contrário, lança uma exceção.
+\end{DoxyReturn}
+\Hypertarget{class_dados_1_1_repositorios_1_1_pacientes_repositorio_afc8576203579253512259e76f0bdd37a}\index{Dados.Repositorios.PacientesRepositorio@{Dados.Repositorios.PacientesRepositorio}!Existe@{Existe}}
+\index{Existe@{Existe}!Dados.Repositorios.PacientesRepositorio@{Dados.Repositorios.PacientesRepositorio}}
+\doxysubsubsection{\texorpdfstring{Existe()}{Existe()}}
+{\footnotesize\ttfamily \label{class_dados_1_1_repositorios_1_1_pacientes_repositorio_afc8576203579253512259e76f0bdd37a} 
+bool Dados.\+Repositorios.\+Pacientes\+Repositorio.\+Existe (\begin{DoxyParamCaption}\item[{int}]{paciente\+Id}{}\end{DoxyParamCaption})}
+
+
+
+Verifica a existência de um paciente no repositório. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em paciente\+Id} & ID do paciente a ser verificado.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} se o paciente existir, {\ttfamily false} caso contrário.
+\end{DoxyReturn}
+\Hypertarget{class_dados_1_1_repositorios_1_1_pacientes_repositorio_ac6d51b36a9b70e32a882ec49ddd80652}\index{Dados.Repositorios.PacientesRepositorio@{Dados.Repositorios.PacientesRepositorio}!ExportarPacientes@{ExportarPacientes}}
+\index{ExportarPacientes@{ExportarPacientes}!Dados.Repositorios.PacientesRepositorio@{Dados.Repositorios.PacientesRepositorio}}
+\doxysubsubsection{\texorpdfstring{ExportarPacientes()}{ExportarPacientes()}}
+{\footnotesize\ttfamily \label{class_dados_1_1_repositorios_1_1_pacientes_repositorio_ac6d51b36a9b70e32a882ec49ddd80652} 
+bool Dados.\+Repositorios.\+Pacientes\+Repositorio.\+Exportar\+Pacientes (\begin{DoxyParamCaption}\item[{string}]{nome\+Ficheiro}{}\end{DoxyParamCaption})}
+
+
+
+Exporta todas os pacientes para um ficheiro binário. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome\+Ficheiro} & Nome do ficheiro onde os dados serão exportados.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna {\ttfamily true} se a exportação for bem-\/sucedida, {\ttfamily false} caso contrário.
+\end{DoxyReturn}
+\Hypertarget{class_dados_1_1_repositorios_1_1_pacientes_repositorio_ac323c53dae4892901a39ab00a784bd85}\index{Dados.Repositorios.PacientesRepositorio@{Dados.Repositorios.PacientesRepositorio}!ObterConsultasIdPaciente@{ObterConsultasIdPaciente}}
+\index{ObterConsultasIdPaciente@{ObterConsultasIdPaciente}!Dados.Repositorios.PacientesRepositorio@{Dados.Repositorios.PacientesRepositorio}}
+\doxysubsubsection{\texorpdfstring{ObterConsultasIdPaciente()}{ObterConsultasIdPaciente()}}
+{\footnotesize\ttfamily \label{class_dados_1_1_repositorios_1_1_pacientes_repositorio_ac323c53dae4892901a39ab00a784bd85} 
+int Dados.\+Repositorios.\+Pacientes\+Repositorio.\+Obter\+Consultas\+Id\+Paciente (\begin{DoxyParamCaption}\item[{int}]{paciente\+Id}{}\end{DoxyParamCaption})}
+
+
+
+Obtém o ID do repositório de consultas associado a um paciente. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em paciente\+Id} & ID do paciente.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+O ID do repositório de consultas associado ao paciente.
+\end{DoxyReturn}
+\Hypertarget{class_dados_1_1_repositorios_1_1_pacientes_repositorio_a32fb6010cb8a3ddcce244bfa745873cc}\index{Dados.Repositorios.PacientesRepositorio@{Dados.Repositorios.PacientesRepositorio}!ObterPacienteLight@{ObterPacienteLight}}
+\index{ObterPacienteLight@{ObterPacienteLight}!Dados.Repositorios.PacientesRepositorio@{Dados.Repositorios.PacientesRepositorio}}
+\doxysubsubsection{\texorpdfstring{ObterPacienteLight()}{ObterPacienteLight()}}
+{\footnotesize\ttfamily \label{class_dados_1_1_repositorios_1_1_pacientes_repositorio_a32fb6010cb8a3ddcce244bfa745873cc} 
+\mbox{\hyperlink{class_objetos_negocio_1_1_classes_light_1_1_paciente_light}{Paciente\+Light}} Dados.\+Repositorios.\+Pacientes\+Repositorio.\+Obter\+Paciente\+Light (\begin{DoxyParamCaption}\item[{int}]{paciente\+Id}{}\end{DoxyParamCaption})}
+
+
+
+Obtém um objeto {\ttfamily Paciente\+Light} com informações resumidas de um paciente. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em paciente\+Id} & ID do paciente a ser obtido.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Um objeto {\ttfamily Paciente\+Light} com os dados resumidos do paciente.
+\end{DoxyReturn}
+\Hypertarget{class_dados_1_1_repositorios_1_1_pacientes_repositorio_a17edcc4f01c9e39097824838030ff985}\index{Dados.Repositorios.PacientesRepositorio@{Dados.Repositorios.PacientesRepositorio}!ObterPorId@{ObterPorId}}
+\index{ObterPorId@{ObterPorId}!Dados.Repositorios.PacientesRepositorio@{Dados.Repositorios.PacientesRepositorio}}
+\doxysubsubsection{\texorpdfstring{ObterPorId()}{ObterPorId()}}
+{\footnotesize\ttfamily \label{class_dados_1_1_repositorios_1_1_pacientes_repositorio_a17edcc4f01c9e39097824838030ff985} 
+\mbox{\hyperlink{class_dados_1_1_entidades_1_1_paciente}{Paciente}} Dados.\+Repositorios.\+Pacientes\+Repositorio.\+Obter\+Por\+Id (\begin{DoxyParamCaption}\item[{int}]{paciente\+Id}{}\end{DoxyParamCaption})}
+
+
+
+Obtém um paciente pelo ID. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em paciente\+Id} & ID do paciente a ser obtido.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+O paciente correspondente ou {\ttfamily null} se não for encontrado.
+\end{DoxyReturn}
+\Hypertarget{class_dados_1_1_repositorios_1_1_pacientes_repositorio_a0fc4436b832d90e70e87128e121c6da2}\index{Dados.Repositorios.PacientesRepositorio@{Dados.Repositorios.PacientesRepositorio}!Remover@{Remover}}
+\index{Remover@{Remover}!Dados.Repositorios.PacientesRepositorio@{Dados.Repositorios.PacientesRepositorio}}
+\doxysubsubsection{\texorpdfstring{Remover()}{Remover()}}
+{\footnotesize\ttfamily \label{class_dados_1_1_repositorios_1_1_pacientes_repositorio_a0fc4436b832d90e70e87128e121c6da2} 
+bool Dados.\+Repositorios.\+Pacientes\+Repositorio.\+Remover (\begin{DoxyParamCaption}\item[{int}]{paciente\+Id}{}\end{DoxyParamCaption})}
+
+
+
+Remove um paciente do repositório. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em paciente\+Id} & ID do paciente a ser removido.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+{\ttfamily true} se o paciente foi removido, {\ttfamily false} se não foi encontrado.
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/2ano/1sem/\+POO/\+FASE2\+\_\+\+PROJETO/\+Gestao\+Centro\+Saude/\+Dados/\+Repositorios/Pacientes\+Repositorio.\+cs\end{DoxyCompactItemize}

@@ -1,0 +1,121 @@
+\doxysection{Dados.\+Entidades.\+Pessoa Class Reference}
+\hypertarget{class_dados_1_1_entidades_1_1_pessoa}{}\label{class_dados_1_1_entidades_1_1_pessoa}\index{Dados.Entidades.Pessoa@{Dados.Entidades.Pessoa}}
+
+
+Classe base para representar uma pessoa.  
+
+
+Inheritance diagram for Dados.\+Entidades.\+Pessoa\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_dados_1_1_entidades_1_1_pessoa}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_dados_1_1_entidades_1_1_pessoa_aeee029c336461561bf428fdd28c280fc}\label{class_dados_1_1_entidades_1_1_pessoa_aeee029c336461561bf428fdd28c280fc} 
+{\bfseries Pessoa} ()
+\begin{DoxyCompactList}\small\item\em Construtor padrão para criar uma pessoa vazia. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_dados_1_1_entidades_1_1_pessoa_a7292a2d84b560e736156adfe59a1e8f1}{Pessoa}} (int pessoa\+Id, string nome\+Pessoa)
+\begin{DoxyCompactList}\small\item\em Construtor para criar uma pessoa com ID e nome. \end{DoxyCompactList}\item 
+override bool \mbox{\hyperlink{class_dados_1_1_entidades_1_1_pessoa_abc472ad4d41b4e00a196878c74be78dd}{Equals}} (object obj)
+\begin{DoxyCompactList}\small\item\em Verifica se a instância atual é igual a um objeto especificado. \end{DoxyCompactList}\item 
+override int \mbox{\hyperlink{class_dados_1_1_entidades_1_1_pessoa_aa31c24fc60f19cf161f7a8310f098721}{Get\+Hash\+Code}} ()
+\begin{DoxyCompactList}\small\item\em Gera o código hash da instância. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_dados_1_1_entidades_1_1_pessoa_a65059b84d0bed05b96e00029748ad40c}{Obter\+Consultas\+Repositorio}} ()
+\begin{DoxyCompactList}\small\item\em Método comentado, que anteriormente associava um ID de repositório de consultas ao paciente. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_dados_1_1_entidades_1_1_pessoa_a81ca27beffa9c5375ca225b3a08ac8ca}\label{class_dados_1_1_entidades_1_1_pessoa_a81ca27beffa9c5375ca225b3a08ac8ca} 
+int {\bfseries Id}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtém o ID da pessoa. \end{DoxyCompactList}\item 
+\Hypertarget{class_dados_1_1_entidades_1_1_pessoa_a9fcd19877ad26c006904be666b11ce0b}\label{class_dados_1_1_entidades_1_1_pessoa_a9fcd19877ad26c006904be666b11ce0b} 
+string {\bfseries Nome}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtém o nome da pessoa. \end{DoxyCompactList}\item 
+\Hypertarget{class_dados_1_1_entidades_1_1_pessoa_a9c1754494c89e3f2821559ae85cd99f1}\label{class_dados_1_1_entidades_1_1_pessoa_a9c1754494c89e3f2821559ae85cd99f1} 
+string {\bfseries Genero}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtém o género da pessoa. \end{DoxyCompactList}\item 
+\Hypertarget{class_dados_1_1_entidades_1_1_pessoa_ab4ec0bb4532ef95c09411fd60f81cbb4}\label{class_dados_1_1_entidades_1_1_pessoa_ab4ec0bb4532ef95c09411fd60f81cbb4} 
+Date\+Time {\bfseries Data\+Nascimento}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Obtém a data de nascimento da pessoa. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Classe base para representar uma pessoa. 
+
+A classe \doxylink{class_dados_1_1_entidades_1_1_pessoa}{Pessoa} é utilizada para representar uma entidade básica com informações como ID, nome, género e data de nascimento. Inclui métodos para manipular e comparar objetos deste tipo. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_dados_1_1_entidades_1_1_pessoa_a7292a2d84b560e736156adfe59a1e8f1}\index{Dados.Entidades.Pessoa@{Dados.Entidades.Pessoa}!Pessoa@{Pessoa}}
+\index{Pessoa@{Pessoa}!Dados.Entidades.Pessoa@{Dados.Entidades.Pessoa}}
+\doxysubsubsection{\texorpdfstring{Pessoa()}{Pessoa()}}
+{\footnotesize\ttfamily \label{class_dados_1_1_entidades_1_1_pessoa_a7292a2d84b560e736156adfe59a1e8f1} 
+Dados.\+Entidades.\+Pessoa.\+Pessoa (\begin{DoxyParamCaption}\item[{int}]{pessoa\+Id}{, }\item[{string}]{nome\+Pessoa}{}\end{DoxyParamCaption})}
+
+
+
+Construtor para criar uma pessoa com ID e nome. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pessoa\+Id} & O identificador único da pessoa.\\
+\hline
+{\em nome\+Pessoa} & O nome da pessoa.\\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_dados_1_1_entidades_1_1_pessoa_abc472ad4d41b4e00a196878c74be78dd}\index{Dados.Entidades.Pessoa@{Dados.Entidades.Pessoa}!Equals@{Equals}}
+\index{Equals@{Equals}!Dados.Entidades.Pessoa@{Dados.Entidades.Pessoa}}
+\doxysubsubsection{\texorpdfstring{Equals()}{Equals()}}
+{\footnotesize\ttfamily \label{class_dados_1_1_entidades_1_1_pessoa_abc472ad4d41b4e00a196878c74be78dd} 
+override bool Dados.\+Entidades.\+Pessoa.\+Equals (\begin{DoxyParamCaption}\item[{object}]{obj}{}\end{DoxyParamCaption})}
+
+
+
+Verifica se a instância atual é igual a um objeto especificado. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & O objeto a ser comparado com a instância atual.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna {\ttfamily true} se o objeto especificado for igual à instância atual; caso contrário, retorna {\ttfamily false}. 
+\end{DoxyReturn}
+\Hypertarget{class_dados_1_1_entidades_1_1_pessoa_aa31c24fc60f19cf161f7a8310f098721}\index{Dados.Entidades.Pessoa@{Dados.Entidades.Pessoa}!GetHashCode@{GetHashCode}}
+\index{GetHashCode@{GetHashCode}!Dados.Entidades.Pessoa@{Dados.Entidades.Pessoa}}
+\doxysubsubsection{\texorpdfstring{GetHashCode()}{GetHashCode()}}
+{\footnotesize\ttfamily \label{class_dados_1_1_entidades_1_1_pessoa_aa31c24fc60f19cf161f7a8310f098721} 
+override int Dados.\+Entidades.\+Pessoa.\+Get\+Hash\+Code (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Gera o código hash da instância. 
+
+\begin{DoxyReturn}{Returns}
+Retorna o código hash baseado no ID. 
+\end{DoxyReturn}
+\Hypertarget{class_dados_1_1_entidades_1_1_pessoa_a65059b84d0bed05b96e00029748ad40c}\index{Dados.Entidades.Pessoa@{Dados.Entidades.Pessoa}!ObterConsultasRepositorio@{ObterConsultasRepositorio}}
+\index{ObterConsultasRepositorio@{ObterConsultasRepositorio}!Dados.Entidades.Pessoa@{Dados.Entidades.Pessoa}}
+\doxysubsubsection{\texorpdfstring{ObterConsultasRepositorio()}{ObterConsultasRepositorio()}}
+{\footnotesize\ttfamily \label{class_dados_1_1_entidades_1_1_pessoa_a65059b84d0bed05b96e00029748ad40c} 
+int Dados.\+Entidades.\+Pessoa.\+Obter\+Consultas\+Repositorio (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Método comentado, que anteriormente associava um ID de repositório de consultas ao paciente. 
+
+Obtém o ID do repositório de consultas associado.
+
+\begin{DoxyReturn}{Returns}
+O ID do repositório de consultas. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/2ano/1sem/\+POO/\+FASE2\+\_\+\+PROJETO/\+Gestao\+Centro\+Saude/\+Dados/\+Entidades/Pessoa.\+cs\end{DoxyCompactItemize}
